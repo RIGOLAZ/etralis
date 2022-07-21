@@ -449,11 +449,6 @@ nav a:hover:before {
     margin: 8px;
 }
 
-/* .artbkg img{
-    width: 50px;
-    filter: brightness(150%);
-} */
-
 .artserv{
     margin:20px 5px 20px 5px;
     color:#202020;
@@ -464,9 +459,10 @@ nav a:hover:before {
 #plus{
     position: relative;
     font-family: 'Short Stack';
-    font-size: 8px;
-    bottom: 5px;
-    left:75%;
+    font-size: 10px;
+    bottom: 10px;
+    text-align: center;
+    /* line-height: 2px; */
 }
 
 .butItem:hover{
@@ -993,12 +989,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*Comment starting.......*/
 .comment-in {
+    display: flex;
     flex-direction: column;
     background: var(--light-night);
     min-width: 300px;
     max-width: 500px;
     align-self: center;
-    padding: 2%;
+    padding: 5%;
     color: var(--text-color-light);
     border-radius: 5px;
 }
@@ -1018,7 +1015,7 @@ input[type=number]::-webkit-outer-spin-button {
 #url {
     width: 100%;
     border: none;
-    height: 2em;
+    height: 1.5em;
     border-radius: 5px;
     font-size: 16px;
     color: var(--bkgfoot);
@@ -1150,7 +1147,7 @@ main, footer, .comment-in {
 footer {
   background: var(--bkgfoot3);
   width: 100%;
-  /* margin-top: 10px; */
+  margin-top: 20px;
 }
 footer ul {
   list-style: none;

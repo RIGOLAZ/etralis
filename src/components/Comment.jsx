@@ -41,12 +41,12 @@ const Comment = () => {
                 <label htmlFor="email">Email <span className="required">*</span></label>
                 <input type="email" id="email" name="email" value={adresse} onChange={handleChangeAdresse} size="30" maxLength="100" aria-describedby="email-notes" required="required"/>
                 <label htmlFor="url">Site web</label>
-                <input type="text" id="url" name="url" value={webs} onChange={handleChangeWebs} size="30" maxLength="200"/><br />
+                <input type="text" id="url" name="url" value={webs} onChange={handleChangeWebs} size="30" maxLength="200"/><br /><br />
                 <input type="checkbox" id="comment-cookies-consent" name="cookies-consent" value="yes"/>
                 <label htmlFor="comment-cookies-consent"> Mémoriser mes coordonnées!</label><br />
                 <input type="checkbox" name="cookies-consent" id='getinfo' value="1"/>
                 <label htmlFor="getinfo"> Avoir les infos de ETRALIS</label><br />
-                <input type="submit" name="submit" id="submit" className="submit" value="Poster"/>
+                <button id="submit" className="submit" value="Poster">ENVOYER</button>
         </form>
     </div>
     );

@@ -4,7 +4,7 @@ const ServItem = ({item}) => {
     return (
         <>
             <Link to={item.lien} className="article">
-                <div className='artbkg' style={{backgroundImage:`linear-gradient(-15deg, #FFFFFF00 65%, #000000), url(${item.bgi})`}}>
+                <div className='artbkg' style={{backgroundImage:`linear-gradient(-5deg, #FFFFFF00 70%, #000000), url(${item.bgi})`}}>
                         <div className="artitle" style={{color:item.homoHeadColor}}>
                             <h3>{item.title}</h3>
                         </div>

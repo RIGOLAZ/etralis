@@ -13,7 +13,6 @@ const Home = () => {
             <Sidebar3 />
         <main>
             <div id="marge"></div>
-            <div>
             <div className='branding'>
                 <div className='titre-home'>
                     <h1>Techniciens professionnels en urgence 24/7</h1>
@@ -23,7 +22,6 @@ const Home = () => {
                     Nous appeler au: <a href="tel:677077030"> 677 07 70 30</a> / <a href="tel:694088330">694 08 83 30</a></p>
                     <p>Ou nous conctacter sur whatsapp  <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
                     <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="message" /></Link></p>
-                </div>
                 </div>
             </div>
             <Rubrique/>
