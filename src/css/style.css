@@ -445,7 +445,7 @@ nav a:hover:before {
 .artitle{
     display: flex;
     flex-direction: row;
-    line-height: 25px;
+    line-height: 18px;
     margin: 8px;
 }
 
@@ -460,9 +460,8 @@ nav a:hover:before {
     position: relative;
     font-family: 'Short Stack';
     font-size: 10px;
-    bottom: 10px;
+    bottom: 8px;
     text-align: center;
-    /* line-height: 2px; */
 }
 
 .butItem:hover{
@@ -992,7 +991,6 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-direction: column;
     background: var(--light-night);
-    min-width: 300px;
     max-width: 500px;
     align-self: center;
     padding: 5%;
@@ -1147,7 +1145,7 @@ main, footer, .comment-in {
 footer {
   background: var(--bkgfoot3);
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 footer ul {
   list-style: none;
