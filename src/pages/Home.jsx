@@ -3,14 +3,14 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { Link } from 'react-router-dom';
 import Rubrique from '../components/Rubrique';
-import Sidebar3 from '../components/sidebar3';
 import Comment from '../components/Comment'
+import Sidebar from '../components/sidebar';
 
 const Home = () => {
     return (
         <>
             <Header />
-            <Sidebar3 />
+            <Sidebar />
         <main>
             <div id="marge"></div>
             <div className='branding'>

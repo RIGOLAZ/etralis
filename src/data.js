@@ -73,15 +73,6 @@ export const offre=[
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1653849711/soudure_rlmter.jpg"
     },{
         id:9,
-        img: "https://res.cloudinary.com/do8lyndou/image/upload/v1652848627/camion-grue_sdzknv.svg",
-        homoHeadColor:"#FFFFFF",
-        homoBodyColor:"#000000",
-        title:"BTP-URBANISME",
-        desc:"Bâtiments, travaux publics( éclairage public, les travaux souterrains, etc...).",
-        lien: "/btp",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1653850378/btp_sgkqdv.jpg"
-    },{
-        id:10,
         img: "https://res.cloudinary.com/do8lyndou/image/upload/v1652850869/Altimeter_ota7bh.svg",
         homoHeadColor:"#FFFFFF",
         homoBodyColor:"#000000",
@@ -89,9 +80,18 @@ export const offre=[
         desc:"Techiques d'assistance dans l'aviation, gestion des systèmes embarqués.",
         lien: "/avionique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1654005226/avionique_iaxkrc.jpg"
-    }
+    }/* ,{
+        id:10,
+        img: "https://res.cloudinary.com/do8lyndou/image/upload/v1652848627/camion-grue_sdzknv.svg",
+        homoHeadColor:"#FFFFFF",
+        homoBodyColor:"#000000",
+        title:"BTP-URBANISME",
+        desc:"Bâtiments, travaux publics( éclairage public, les travaux souterrains, etc...).",
+        lien: "/btp",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1653850378/btp_sgkqdv.jpg"
+    } */
 ]
 
 export const backward =()=> {
     window.history.back();
- }
+}

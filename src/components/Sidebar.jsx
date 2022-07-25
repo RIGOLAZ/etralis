@@ -2,21 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
-
     return (
         <>
-            <input type="checkbox" id="check"/>
-            <label htmlFor="check">
-                <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1652838848/bars_gwupba.svg" alt="open-bar" id="btn"/>
-                <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1652838929/times_ow8izx.svg" alt="close" id="cancel"/>
-            </label>
-<div className="sidebar">
-    <header>
-        <div id="side-login">
-            <img id="top-img" src="https://res.cloudinary.com/do8lyndou/image/upload/v1652787741/official-logo-ets_ivl0ag.svg" alt="logo" />
+    <div id="nav-container">
+        <div class="bg"></div>
+        <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
         </div>
-    </header>
-    <div className="menu">
+        <div id="nav-content" tabindex="0">
         <ul>
             {/* <li>
                 <Link to="#" className="active">
@@ -28,11 +23,6 @@ const Sidebar = () => {
                     <span>Partenariat</span>
                 </Link>
             </li>
-            {/* <li>
-                <Link to="/travaux-programmes">
-                    <span>Travaux programmés</span>
-                </Link>
-            </li> */}
             <li>
                 <Link to="/foire-aux-questions">
                 <span>FAQ</span></Link>
@@ -42,10 +32,26 @@ const Sidebar = () => {
                     <span>Contact Whatsapp</span>
                 </Link>
             </li>
-                </ul>
-            </div>
+            <li class="small">
+                <Link to="#" target="_blank" title="Facebook" className="socials-item">
+                <i className="fab fa-facebook-f facebook"></i>
+                </Link>
+                <Link to="#" target="_blank" title="Twitter" className="socials-item">
+                    <i className="fab fa-twitter twitter"></i>
+                </Link>
+                <Link to="#" target="_blank" title="Instagram" className="socials-item">
+                    <i className="fab fa-instagram instagram"></i>
+                </Link>
+                <Link to="#" target="_blank" title="YouTube" className="socials-item">
+                    <i className="fab fa-youtube youtube"></i>
+                </Link>
+                <Link to="#" target="_blank" title="Telegram" className="socials-item">
+                    <i className="fab fa-telegram telegram"></i>
+                </Link></li>
+            </ul>
         </div>
-        </>
+    </div>
+    </>
     );
 };
 

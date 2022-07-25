@@ -1,14 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Sidebar3 from '../components/sidebar3';
+import Sidebar from '../components/sidebar'
 
 
 const InfoAppli = () => {
     return (
         <>
             <Header />
-            <Sidebar3 />
+            <Sidebar />
         <main>
         <div id="marge1"></div>
         <div className="contenu">
