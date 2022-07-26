@@ -121,7 +121,6 @@ strong {
   height: calc(100% - 200px);
   background-color:#FFFFFF;
   pointer-events: auto;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   transform: translateX(-105%);
   transition: transform 0.5s;
   will-change: transform;
@@ -145,7 +144,7 @@ strong {
 }
 
 #nav-content li a:hover {
-  color: #989e9f;
+  color: #7e7f80;
 }
 
 #nav-content li:not(.small) + .small {
@@ -323,23 +322,14 @@ nav a:hover:before {
     z-index: 1;
 }
 
+.ref i{
+    cursor: pointer;
+    padding: 15px;
+}
 .ref h3{
     display: inline-block;
     padding-left: 5px;
 }
-
-.ref i{
-    /* color:inherit; */
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* .ref::before{
-    content: '\f0d9';
-    font-family: 'font Awesome 6 Free';
-    padding-right: 9px;
-    font-weight: 900;
-} */
 
 .headboard_solo {
     position: fixed;
@@ -386,6 +376,11 @@ nav a:hover:before {
     margin: 5px;
     background-size: cover;
 }
+.intro{
+    flex-direction: column;
+    min-height: 300px;
+    background-size: cover;
+}
 
 .titre-home{
     /* font-family:'Montserrat'; */
@@ -394,6 +389,23 @@ nav a:hover:before {
     font-size: 16px;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+.titre-home h1{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.titre-home i{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.intro span{
+    position: absolute;
+    padding:10px;
+    color:#FFFFFF;
+    font-size: 16px;
 }
 
 .enBref{
