@@ -16,10 +16,10 @@ const Header = () => {
                 <NavLink to='/services' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Services </NavLink>
                 <NavLink to='/contacts' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Contacts </NavLink>
             </nav>
-            <sapn id='joindre'>
+            <span id='joindre'>
             <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
                     <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="whats" /></Link>
-            </sapn>
+            </span>
         </div>
         </>
     );

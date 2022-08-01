@@ -1,25 +1,20 @@
-// import firebase from '@firebase/app'
-import firebase from 'firebase';
-import 'firebase/firestore'
-import 'firebase/auth'
+import {initializeApp} from 'firebase/app';
+import {getFirestore} from '@firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAWzobWKDv9SJ6DTc0rbRROqFSQSygVAR8",
-    authDomain: "etoile-triangle.firebaseapp.com",
-    projectId: "etoile-triangle",
-    storageBucket: "etoile-triangle.appspot.com",
-    messagingSenderId: "663821623224",
-    appId: "1:663821623224:web:dc2236a55b2a8277f5b94d",
-    measurementId: "G-83XGYHTL0Y"
+  apiKey: "AIzaSyD8FfWDAQo9Oo7V0HocHlkVqEHOcdgOUNU",
+  authDomain: "etralis.firebaseapp.com",
+  projectId: "etralis",
+  storageBucket: "etralis.appspot.com",
+  messagingSenderId: "870023915404",
+  appId: "1:870023915404:web:6b03af5bc33b0b171798a9",
+  measurementId: "G-QT8PWGGHE6"
   };
 
 //init firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 //init services
-const projectFirestore = firebase.firestore();
-const projectAuth = firebase.auth();
-// timestamp
-const timestamp = firebase.firestore.Timestamp();
+const db = getFirestore();
 
-export { projectFirestore, projectAuth, timestamp, firebase }
+export { db, app };

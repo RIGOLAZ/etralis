@@ -5,13 +5,13 @@ const Sidebar = () => {
     return (
         <>
     <div id="nav-container">
-        <div class="bg"></div>
-        <div class="button" tabindex="0">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <div className="bg"></div>
+        <div className="button" tabIndex="0">
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
         </div>
-        <div id="nav-content" tabindex="0">
+        <div id="nav-content" tabIndex="0">
         <ul>
             {/* <li>
                 <Link to="#" className="active">
@@ -32,7 +32,7 @@ const Sidebar = () => {
                     <span>Contact Whatsapp</span>
                 </Link>
             </li>
-            <li class="small">
+            <li className="small">
                 <Link to="#" target="_blank" title="Facebook" className="socials-item">
                 <i className="fab fa-facebook-f facebook"></i>
                 </Link>

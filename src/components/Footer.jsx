@@ -71,7 +71,7 @@ const Footer1 = () => {
             <i className="fab fa-twitter twitter"></i>
           </Link>
           <Link to="#" target="_blank" title="Instagram" className="socials-item">
-          <i class="fab fa-linkedin linkedin"></i>
+          <i className="fab fa-linkedin linkedin"></i>
           </Link>
           <Link to="#" target="_blank" title="YouTube" className="socials-item">
             <i className="fab fa-youtube youtube"></i>
@@ -83,8 +83,8 @@ const Footer1 = () => {
       </section>
       <section className="footer-bottom-section flex-rw">
     <div className="footer-bottom-wrapper">   
-    <i className="fa fa-copyright" role="copyright">
-    </i> 2022 ETRALIS <address className="footer-address" role="company address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
+    <i className="fa fa-copyright">
+    </i> 2022 ETRALIS <address className="footer-address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
         </div>
         <div className="footer-bottom-wrapper">
         <Link to="/termes" className="generic-anchor" rel="nofollow">Termes</Link> | <Link to="/confidentialite" className="generic-anchor" rel="nofollow">Confidentialité</Link>

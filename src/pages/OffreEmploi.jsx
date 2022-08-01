@@ -13,7 +13,7 @@ const OffreEmploi = () => {
         <main>
             <div id="marge"></div>
             <div className='ref'>
-            <i onClick={backward} class="fa-solid fa-caret-left fa-xl"></i><h3>OFFRE D'EMPLOI</h3>
+            <i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h3>OFFRE D'EMPLOI</h3>
             </div>
             <ComingSoon />
         </main>
