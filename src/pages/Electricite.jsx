@@ -35,7 +35,7 @@ const Electricite = () => {
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier...</p>
 				<h2 id='conseils'>Quelques conseils</h2>
 				<h3>Aménagement dans un nouveau local</h3>
-				<p>Lors de l’aménagement dans une nouvelle maison, Il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricié, et dans le même ordre d'idée, demander un changement de nom pour que vous deveniez le nouveau propriétaire du compteur.
+				<p>Lors de l’aménagement dans une nouvelle maison, Il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricié, et dans le même ordre d'idée, demander un changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
 					Pour besoin d'accompagenement, nous contacter.<br/> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
 				<h3>Les critères d'une installation aux normes</h3>
 				<h4>Sélectivité</h4>

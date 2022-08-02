@@ -458,6 +458,9 @@ nav a:hover:before {
     transition: all 300ms ease;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+.article:link{
+
+}
 
 .artitle{
     display: flex;
@@ -707,7 +710,7 @@ section {
     margin-inline-end: 0px;
 }
 .body p{
-    margin-top: 0.75em;
+    margin-top: 0.5em;
     margin-bottom: 1.5em;
     display: block;
     margin-block-start: 1em;
@@ -936,7 +939,7 @@ section {
 #comment {
     background:rgb(245, 245, 245);
     width: 100%;
-    min-height: 100px;
+    min-height: 90px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -957,22 +960,31 @@ section {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#submit {
-    display: flex;
-    flex-grow: inherit;
-    font-size: 16px;
-    border: none;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 5px 20px;
-    margin-top: 20px;
-    background: gray;
-}
+/*submit style*/
 
-#submit:hover {
-    background-color: #b8b8b8;
+.submit {
+    left: 10px;
+    right:10px;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
     cursor: pointer;
+    color: var(--color);
+    transition: 0.25s;
+    border-radius: 5px;
+    --color: var(--mainColor6);
+    --hover: #60fc52;
+  }
+.submit:hover,.submit:focus {
+    border-color: var(--hover);
+    color: #60fc52;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
+/*submit sytle end*/
 
 #lastTextA{
     display: none !important;

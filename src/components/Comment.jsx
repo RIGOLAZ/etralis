@@ -42,14 +42,6 @@ const Comment = () => {
             setNom('');
             setWebs('');
         }).then(()=>{
-           /*  Swal.fire({
-                // position: 'top-end',
-                // icon: 'success',
-                // title: 'Merci pour votre commnentaire',
-                // showConfirmButton: false,
-                // timer: 1500
-              }) */
-
               Swal.fire({
                 title: 'ETRALIS',
                 text: 'Merci pour votre commentaire',
@@ -78,7 +70,7 @@ const Comment = () => {
                 <label htmlFor="comment-cookies-consent"> Mémoriser mes coordonnées!</label><br />
                 <input type="checkbox" name="cookies-consent" id='getinfo' value="1"/>
                 <label htmlFor="getinfo"> Avoir les infos de ETRALIS</label><br />
-                <button id="submit" className="submit" value="Poster">ENVOYER</button>
+                <button className="submit" value="Poster">ENVOYER</button>
             </form>
         </div>
             {/* <div className='App'>{comments.map((user)=>{
