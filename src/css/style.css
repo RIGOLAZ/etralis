@@ -201,7 +201,7 @@ strong {
 }
 #marge {
     position: static;
-    height: 59px;
+    height: 56px;
     width: 100%;
 }
 nav {
@@ -383,7 +383,7 @@ nav a:hover:before {
 }
 
 .titre-home{
-    /* font-family:'Montserrat'; */
+    font-family:'Montserrat';
     color:#ffffff;
     font-weight: bold;
     font-size: 16px;
@@ -398,7 +398,7 @@ nav a:hover:before {
 
 .titre-home i{
     position: relative;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     top:0;
 }
@@ -457,9 +457,6 @@ nav a:hover:before {
 .article:hover{
     transition: all 300ms ease;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-.article:link{
-
 }
 
 .artitle{
@@ -649,6 +646,9 @@ section {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
 }
+.body img{
+    width: 100px;
+}
 .body h2 {
         font-family:'Short Stack','Montserrat', sans-serif;
         font-size: 22px;
@@ -657,7 +657,8 @@ section {
         text-transform: none;
         color: var(--mainColor6);
         margin: 0.83em 0;
-        display: block;
+        padding-left: 10px;
+        display: inline-block;
         margin-block-start: 0.83em;
         margin-block-end: 0.83em;
         margin-inline-start: 0px;
@@ -978,7 +979,7 @@ section {
     --color: var(--mainColor6);
     --hover: #60fc52;
   }
-.submit:hover,.submit:focus {
+.submit:hover{
     border-color: var(--hover);
     color: #60fc52;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
