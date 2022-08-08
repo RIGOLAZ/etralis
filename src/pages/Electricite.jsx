@@ -54,7 +54,7 @@ const Electricite = () => {
 				<p>Toute construction devrait avoir des appareillages dédiés à la protection des personnes qui utilisent les différents appareils à carcasse métallique présents et accessibles tels que refrigérateurs, fer à repasser, cuisinière électrique, etc... d'où l'importance d'installer le dispositif de terre accompagné des disjoncteurs spécifiques.</p>
 				<h4>Circuits repérés</h4>
 				<p>Un tableau électrique fait par un professionnel du métier devrait contenir des stickers permettant d'identifier l'appareillage de protection qui commande tel appareil ou tel local. Cette pratique permet d'anticiper dans les besoins futurs et aide quiconque, technicien comme simple usager, à vite se repérer lors d'une intervention quelconque. <br />
-				Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus "Chauffe eau chambre parents", n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
+					Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus "Chauffe eau chambre parents", n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
 			</div>
 			</div>
 				</div>
