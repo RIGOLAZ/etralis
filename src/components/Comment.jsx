@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 
 const Comment = () => {
     //Hooks
-    const [comments, setComments] = useState([]);
+    const [setComments] = useState([]);
     const commentsCollectionRef = collection(db, 'comments');
     useEffect(()=> {
         const getComments = async()=>{
@@ -42,15 +42,15 @@ const Comment = () => {
             setNom('');
             setWebs('');
         }).then(()=>{
-              Swal.fire({
-                title: 'ETRALIS',
-                text: 'Merci pour votre commentaire',
-                imageUrl: 'https://res.cloudinary.com/do8lyndou/image/upload/v1652787741/official-logo-ets_ivl0ag.svg',
-                imageWidth: 100,
-                imageHeight: 100,
-                imageAlt: 'Custom image',
-                timer: 2500
-              })
+            Swal.fire({
+            title: 'ETRALIS',
+            text: 'Merci pour votre commentaire',
+            imageUrl: 'https://res.cloudinary.com/do8lyndou/image/upload/v1652787741/official-logo-ets_ivl0ag.svg',
+            imageWidth: 100,
+            imageHeight: 100,
+            imageAlt: 'Custom image',
+            timer: 2500
+            })
         });
     }
     // console.log("Commentaire saisi:" + commentaire + "\nNom saisi:" + nom + "\nAdresse saisie:" + adresse + "\nSite saisi:" + webs); 

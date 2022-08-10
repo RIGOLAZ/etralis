@@ -936,6 +936,7 @@ section {
     max-width: 500px;
     align-self: center;
     padding: 5%;
+    margin: 20px;
     color: var(--text-color-light);
     border-radius: 5px;
 }
@@ -1056,7 +1057,7 @@ section {
 /* * {
     box-sizing: border-box
 } */
-main, footer, .comment-in {
+main, footer {
     font: 11px "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
