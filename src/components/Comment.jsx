@@ -19,7 +19,6 @@ const Comment = () => {
     const [commentaire, setCommentaire] = useState();
     const [adresse, setAdresse] = useState();
     const [nom, setNom] = useState();
-    const [webs, setWebs] = useState();
 
     const handleChangeComment =(e) =>{
         setCommentaire(e.target.value);
@@ -30,17 +29,13 @@ const Comment = () => {
     const handleChangeNom = (e) =>{
         setNom(e.target.value);
     };
-    const handleChangeWebs =(e)=>{
-        setWebs(e.target.value)
-    };
     const submitForm = async(e) =>{
         e.preventDefault();
-        await addDoc(commentsCollectionRef, {comment: commentaire, email:adresse, name: nom, website: webs})
+        await addDoc(commentsCollectionRef, {comment: commentaire, email:adresse, name: nom})
         .then(()=>{
             setCommentaire('');
             setAdresse('');
             setNom('');
-            setWebs('');
         }).then(()=>{
             Swal.fire({
             title: 'ETRALIS',
@@ -64,8 +59,7 @@ const Comment = () => {
                 <input type="text" id="author" name="author" value={nom} onChange={handleChangeNom} size="30" maxLength="245" required="required"/><br />
                 <label htmlFor="email">Email <span className="required">*</span></label>
                 <input type="email" id="email" name="email" value={adresse} onChange={handleChangeAdresse} size="30" maxLength="100" aria-describedby="email-notes" required="required"/>
-                <label htmlFor="url">Site web</label>
-                <input type="text" id="url" name="url" value={webs} onChange={handleChangeWebs} size="30" maxLength="200"/><br /><br />
+                <br /><br />
                 <input type="checkbox" id="comment-cookies-consent" name="cookies-consent" value="yes"/>
                 <label htmlFor="comment-cookies-consent"> Mémoriser mes coordonnées!</label><br />
                 <input type="checkbox" name="cookies-consent" id='getinfo' value="1"/>
