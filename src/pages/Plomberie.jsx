@@ -1,5 +1,6 @@
 import React from 'react';
 import ComingSoon from '../components/ComingSoon';
+import Comment from '../components/Comment';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Sidebar from '../components/sidebar';
@@ -15,6 +16,7 @@ const Plomberie = () => {
         <i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h4>PLOMBERIE</h4>
             </div>
         <ComingSoon />
+        <Comment />
     </main>
         <Footer />
     </>

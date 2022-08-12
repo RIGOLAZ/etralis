@@ -10,14 +10,14 @@ const Electricite = () => {
 <>
 	<Header />
 	<Sidebar />
-<main>
-	<div id="marge"></div>
-	<div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg")`}} >
-		<div className='titre-home'>
-			<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>ELECTRICITE</h1>
+	<main>
+		<div id="marge"></div>
+		<div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg")`}} >
+			<div className='titre-home'>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>ELECTRICITE</h1>
+			</div>
+			{/* <span>Nos services dans le domaine...</span> */}
 		</div>
-		{/* <span>Nos services dans le domaine...</span> */}
-	</div>
 			<section className="section-blog section-blog-article">
 				<div className="inner">
             <div className="container">
