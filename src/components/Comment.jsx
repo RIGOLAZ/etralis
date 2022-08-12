@@ -44,7 +44,7 @@ const Comment = () => {
             imageWidth: 100,
             imageHeight: 100,
             imageAlt: 'Custom image',
-            timer: 2500
+            timer: 5000
             })
         });
     }
@@ -52,13 +52,13 @@ const Comment = () => {
     return (
         <>
         <div className="comment-in">
-            <form action="rigolazNode.js" method="post" onSubmit={submitForm}>
+            <form method="post" onSubmit={submitForm}>
                 <label htmlFor="comment"><h3>Laissez un commentaire ici</h3></label><br />
                 <textarea id="comment" value={commentaire} onChange={handleChangeComment} name="comment" maxLength="65525" required="required"></textarea>
                 <label htmlFor="author">Nom <span className="required">*</span></label><br />
-                <input type="text" id="author" name="author" value={nom} onChange={handleChangeNom} size="30" maxLength="245" required="required"/><br />
+                <input type="text" id="author" name="author" value={nom} onChange={handleChangeNom} size="70" maxLength="245" required="required"/><br />
                 <label htmlFor="email">Email <span className="required">*</span></label>
-                <input type="email" id="email" name="email" value={adresse} onChange={handleChangeAdresse} size="30" maxLength="100" aria-describedby="email-notes" required="required"/>
+                <input type="email" id="email" name="email" value={adresse} onChange={handleChangeAdresse} size="70" maxLength="100" aria-describedby="email-notes" required="required"/>
                 <br /><br />
                 <input type="checkbox" id="comment-cookies-consent" name="cookies-consent" value="yes"/>
                 <label htmlFor="comment-cookies-consent"> Mémoriser mes coordonnées!</label><br />
