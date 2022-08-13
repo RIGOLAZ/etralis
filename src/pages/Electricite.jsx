@@ -16,7 +16,7 @@ const Electricite = () => {
 			<div className='titre-home'>
 				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>ELECTRICITE</h1>
 			</div>
-			{/* <span>Nos services dans le domaine...</span> */}
+
 		</div>
 			<section className="section-blog section-blog-article">
 				<div className="inner">
@@ -25,7 +25,7 @@ const Electricite = () => {
 			<div id="article-body" className="body">
 				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a> </p>
 				<h2>ELECTRICITE DOMESTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659882997/photo-1599709173687-64dcfed43386_wbtwll.jpg" alt="bedroom" />
-				<p>C’est l’électricité du réseau électrique distribuée et utilisée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (Domicile, bureau, boutique, etc…). Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem optio tenetur illo magnam! Enim nobis minus et nam eveniet eligendi asperiores error libero consequatur, voluptates similique velit qui eos commodi?</p>
+				<p>C’est l’électricité du réseau électrique cablée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (Domicile, bureau, boutique, etc…). Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem optio tenetur illo magnam! Enim nobis minus et nam eveniet eligendi asperiores error libero consequatur, voluptates similique velit qui eos commodi?</p>
 				<h2>ELECTRICITE PUBLIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659898447/photo-1639678937176-bdb7ab9b1212_vtttfs.jpg" alt="lampadaire" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque nihil accusamus aperiam, facilis consectetur perferendis rerum obcaecati officia praesentium temporibus sequi autem repellat? Quam soluta explicabo itaque nemo veniam?Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Asperiores non perspiciatis voluptas corrupti dignissimos quos, dolores tenetur vitae, dolor harum a dolorum molestias accusantium error recusandae omnis vel, ipsam possimus.</p>
