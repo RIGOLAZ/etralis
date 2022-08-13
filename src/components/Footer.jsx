@@ -30,9 +30,6 @@ const Footer1 = () => {
         <li><Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
         <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="message" /></Link></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Email:</li>
-        <li><a href='mailto:toile_triangle.serv@yahoo.fr' itemProp="significantLink" className="generic-anchor footer-list-anchor">etoile_triangle</a></li>
-        <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Soon</li>
-        <li><a href='mailto:support@etralis.com' itemProp="significantLink" className="generic-anchor footer-list-anchor">rigolaz@etralis.com</a></li>
         <li><a href='mailto:support@etralis.com' itemProp="significantLink" className="generic-anchor footer-list-anchor">support@etralis.com</a></li>
       </ul>
       <ul className="footer-list-top">
