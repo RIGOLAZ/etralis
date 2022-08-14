@@ -16,7 +16,7 @@ export const offre=[
     },{
         id:3,
         homoHeadColor:"#FFFFFF",
-        title:"ELECTRO MECANIQUE",
+        title:"ELECTROMECANIQUE",
         desc:"Electroménager, ascenseur, mécanisme agricole, distribution automatique, etc...",
         lien: "/electromecanique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659862487/%C3%A9lectrom%C3%A9canique_emdoxj.jpg"
@@ -51,7 +51,7 @@ export const offre=[
     },{
         id:8,
         homoHeadColor:"#FFFFFF",
-        title:"CHAUDRONERIE",
+        title:"CHAUDRONNERIE",
         desc:"Soudure aérienne, souterraine, sur plateforme et milieu aquatique.",
         lien: "/chaudronnerie",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659877478/Chaudronnier_edl6or.jpg"

@@ -13,9 +13,11 @@ const VideoSurveillance = () => {
             <Sidebar />
         <main>
             <div id="marge"></div>
-            <div className='ref'>
-            <i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h3>VIDEO SURVEILLANCE</h3>
-            </div>
+            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg")`}} >
+			<div className='titre-home'>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>VIDEO SURVEILLANCE</h1>
+			</div>
+		</div>
             <ComingSoon />
             <Comment />
         </main>

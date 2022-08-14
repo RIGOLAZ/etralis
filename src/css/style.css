@@ -380,6 +380,7 @@ nav a:hover:before {
     flex-direction: column;
     min-height: 250px;
     background-size: cover;
+    border-radius: 0 0 10px 10px;
 }
 
 .titre-home{
@@ -469,7 +470,7 @@ nav a:hover:before {
 .artserv{
     margin:20px 5px 20px 5px;
     color:#202020;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Short Stack';
 }
 
