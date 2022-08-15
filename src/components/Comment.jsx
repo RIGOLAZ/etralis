@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 
 const Comment = () => {
     //Hooks
-    const [setComments] = useState([]);
+    const [comments, setComments] = useState([]);
     const commentsCollectionRef = collection(db, 'comments');
     useEffect(()=> {
         const getComments = async()=>{
