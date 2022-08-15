@@ -3,14 +3,14 @@ export const offre=[
         id:1,
         homoHeadColor:"#FFFFFF",
         title:"ELECTRICITE",
-        desc:"Electricité domestique, publique, industrielle, biomédicale. Energie renouvelable.",
+        desc:"Electricité domestique, publique, biomédicale. Energie renouvelable.",
         lien: "/electricite",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg"
     },{
         id:2,
         homoHeadColor:"#FFFFFF",
         title:"INFORMATIQUE",
-        desc:"Technique d'assistance, développement d'application web et mobile, informatique industrielle.",
+        desc:"Technique d'assistance, développement d'application web et mobile, réseau informatique.",
         lien: "/informatique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659815108/photo-1561736778-92e52a7769ef_qzzfwd.jpg"
     },{
@@ -44,8 +44,8 @@ export const offre=[
     },{
         id:7,
         homoHeadColor:"#FFFFFF",
-        title:"VIDEO SURVEILLANCE",
-        desc:"Surveillance adaptée avec possibilité de visualisation via vos appareils fixes et mobiles.",
+        title:"COURANT FAIBLE",
+        desc:"Vidéo suveillance, alarme incendie et gaz, détection de mouvements, contrôle d'accès, point d'accès wifi.",
         lien: "/video-surveillance",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg"
     },{

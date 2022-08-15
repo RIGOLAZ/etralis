@@ -30,8 +30,6 @@ const Electricite = () => {
 				<h2>ELECTRICITE PUBLIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1660467303/eclairage-public_f4jvq2.jpg" alt="lampadaire" />
 				<p>C'est l'électricité installée à l'intérieur et à l'extérieur des villes, ceci dans le but de sécurité et de confort des passants. Elle est composée entre autres de <strong>l'éclairage public</strong>, <strong>les feux de signalisation</strong>, etc...
 					Dans une ville, Il est non seulement important d'installer le matériel de qualité et aux normes accompagné des appareillages de protection adéquats pour qu'ils restent très longtemps au public sans se détériorer, mais aussi d'avoir à disposition des techniciens dans le domaine qui maîtrisent les circuits de type automatique et autonome en général souterrains. </p>
-				<h2>ELECTRICITE INDUSTRIELLE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659896658/TGBT_p8ubcc.jpg" alt="TGBT" />
-				<p>automate programmable industriel, Language de programmation, vente des composants électrique</p>
 				<h2>ELECTRICITE BIOMEDICALE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659900642/Scanner_aexb8n.jpg" alt="Biomedical" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, adipisci, esse tenetur quod eum veniam nulla odio autem, aut illum exercitationem quaerat doloremque aspernatur architecto doloribus natus? Accusamus, magni laboriosam.
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum facere et totam ducimus quo, corrupti a vel nam, reiciendis omnis magni id tempore laboriosam ipsa. Possimus nisi voluptate dolore?
