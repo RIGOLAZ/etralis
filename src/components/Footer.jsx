@@ -13,10 +13,10 @@ const Footer1 = () => {
         <li><NavLink to='/electricite' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Electricité</NavLink></li>
         <li><NavLink to='/informatique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Informatique</NavLink></li>
         <li><NavLink to='/electromecanique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Electro mécanique</NavLink></li>
-        <li><NavLink to='/domotique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Domotique</NavLink></li>
+        {/* <li><NavLink to='/domotique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Domotique</NavLink></li> */}
         <li><NavLink to='/froid-et-climatisation' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Froid & Climatisation</NavLink></li>
         <li><NavLink to='/plomberie' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Plomberie</NavLink></li>
-        <li><NavLink to='/video-surveillance' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Vidéo-surveillance</NavLink></li>
+        <li><NavLink to='/courant-faible' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Courant faible</NavLink></li>
         <li><NavLink to='/chaudronnerie' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Chaudronnerie</NavLink></li>
         <li><NavLink to='/btp' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">BTP-Urbanisme</NavLink></li>
         <li><NavLink to='/avionique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Avionique</NavLink></li>

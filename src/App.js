@@ -10,10 +10,9 @@ import Electricite from './pages/Electricite';
 import Avionique from './pages/Avionique';
 import Electromecanique from './pages/Electromecanique';
 import Informatique from './pages/Informatique';
-import Domotique from './pages/Domotique';
 import FroidClimatisation from './pages/FroidClimatisation';
+import CourantFaible from './pages/CourantFaible';
 import Plomberie from './pages/Plomberie';
-import VideoSurveillance from './pages/VideoSurveillance';
 import Chaudronnerie from './pages/Chaudronnerie';
 import BtpUrbanisme from './pages/BtpUrbanisme';
 import QuiSommesNous from './pages/QuiSommesNous';
@@ -38,10 +37,9 @@ const App = () => {
           <Route path='/avionique' element={<Avionique />} />
           <Route path='/informatique' element={<Informatique />} />
           <Route path='/electromecanique' element={<Electromecanique/>} />
-          <Route path='/domotique' element={<Domotique/>} />
           <Route path='/froid-et-climatisation' element={<FroidClimatisation />} />
           <Route path='/plomberie' element={<Plomberie />} />
-          <Route path='/video-surveillance' element={<VideoSurveillance />} />
+          <Route path='/courant-faible' element={<CourantFaible />} />
           <Route path='/chaudronnerie' element={<Chaudronnerie />} />
           <Route path='/btp' element={<BtpUrbanisme />} />
           <Route path='/qui-sommes-nous' element={<QuiSommesNous />} />

@@ -407,8 +407,9 @@ nav a:hover:before {
 .enBref{
     color: #FFFFFF;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10px;
+    margin: 0 0 10px 10px;
     bottom: 0;
+    font-size: 14px;
 }
 
 .enBref a{

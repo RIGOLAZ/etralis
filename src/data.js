@@ -23,40 +23,33 @@ export const offre=[
     },{
         id:4,
         homoHeadColor:"#FFFFFF",
-        title:"DOMOTIQUE",
-        desc:"Commande à distance de vos appareillages via le web (mobile, pc et autre...).",
-        lien: "/domotique",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659879626/Domo-mini_xeqf4i.jpg"
-    },{
-        id:5,
-        homoHeadColor:"#FFFFFF",
         title:"FROID ET CLIMATISATION",
         desc:"Techniques d'assistance des climatiseurs, centrales thermiques, chambre froide, etc...",
         lien: "froid-et-climatisation",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659816117/photo-1659164839265-9bb2f08aacb1_xjvjwv.jpg"
     },{
-        id:6,
+        id:5,
         homoHeadColor:"#FFFFFF",
         title:"PLOMBERIE DOMESTIQUE ET INDUSTRIELLE",
         desc:"Tuyauterie domestique et industrielle, sanitaire, mécanique des fluides.",
         lien: "/plomberie",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659817795/photo-1653379290878-1e839993509a_relqw5.jpg"
     },{
-        id:7,
+        id:6,
         homoHeadColor:"#FFFFFF",
         title:"COURANT FAIBLE",
-        desc:"Vidéo suveillance, alarme incendie et gaz, détection de mouvements, contrôle d'accès, point d'accès wifi.",
-        lien: "/video-surveillance",
+        desc:"Vidéo surveillance, domotique, alarme incendie et gaz, détection de mouvements, contrôle d'accès, point d'accès wifi.",
+        lien: "/courant-faible",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg"
     },{
-        id:8,
+        id:7,
         homoHeadColor:"#FFFFFF",
         title:"CHAUDRONNERIE",
         desc:"Soudure aérienne, souterraine, sur plateforme et milieu aquatique.",
         lien: "/chaudronnerie",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659877478/Chaudronnier_edl6or.jpg"
     },{
-        id:9,
+        id:8,
         homoHeadColor:"#FFFFFF",
         title:"AVIONIQUE",
         desc:"Techiques d'assistance dans l'aviation, gestion des systèmes embarqués.",

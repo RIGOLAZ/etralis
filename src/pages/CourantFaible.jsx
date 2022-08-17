@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Sidebar from '../components/sidebar';
 import { backward } from '../data';
 
-const VideoSurveillance = () => {
+const courantFaible = () => {
     return (
         <>
             <Header />
@@ -15,7 +15,7 @@ const VideoSurveillance = () => {
             <div id="marge"></div>
             <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>VIDEO SURVEILLANCE</h1>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>COURANT FAIBLE</h1>
 			</div>
 		</div>
             <ComingSoon />
@@ -26,4 +26,4 @@ const VideoSurveillance = () => {
     );
 };
 
-export default VideoSurveillance;
+export default courantFaible;
