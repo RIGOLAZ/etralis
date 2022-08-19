@@ -22,6 +22,7 @@ import Localisation from './pages/Localisation';
 import TrxPgr from './components/TrxPgr';
 import Termes from './pages/Termes';
 import Confidentialite from './pages/Confidentialite';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
           <Route path='/travaux-programmes' element={<TrxPgr />}/>
           <Route path='/termes' element={<Termes />} />
           <Route path='/confidentialite' element={<Confidentialite />}/>
+          <Route path='*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </>

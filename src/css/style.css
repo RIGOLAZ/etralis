@@ -6,6 +6,7 @@
 @font-face{font-family:"fontfutura";src:url("https://cdn.rawgit.com/KompiAjaib/font/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 :root {
     --mainColor:linear-gradient(to bottom, rgb(0, 23, 65), rgb(1, 84,152), rgb(204, 188, 175));
     --mainColor1:rgb(204, 188, 175);
@@ -34,6 +35,7 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 /*sidebar.................*/
@@ -405,7 +407,7 @@ nav a:hover:before {
 #lettrine{
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: ;
+
 }
 
 .enBref{
@@ -1246,7 +1248,170 @@ a.socials-item {
     font-size: 2.24em
   }
 }
+
 /*Footer ends................*/
+
+/*Page not found..............*/
+.left-section .inner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0C0E10, #446182);
+  }
+  .background .ground {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25vh;
+    background: #0C0E10;
+  }
+  @media (max-width: 770px) {
+    .background .ground {
+      height: 0vh;
+    }
+  }
+  
+  .notFound {
+    font-family: "Fira Sans", sans-serif;
+    color:#f5f6fa;
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+    height: 100vh;
+    padding-bottom: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  @media (max-width: 770px) {
+    .notFound {
+      flex-direction: column;
+      padding-bottom: 0vh;
+    }
+  }
+  
+  .left-section, .right-section {
+    position: relative;
+  }
+  
+  .left-section {
+    width: 40%;
+  }
+  @media (max-width: 770px) {
+    .left-section {
+      width: 100%;
+      height: 40%;
+      position: absolute;
+      top: 0;
+    }
+  }
+  @media (max-width: 770px) {
+    .left-section .inner-content {
+      position: relative;
+      padding: 1rem 0;
+    }
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 9em;
+    line-height: 1.3em;
+    margin: 2rem 0 0.5rem 0;
+    padding: 0;
+    text-shadow: 0 0 1rem #fefefe;
+  }
+  @media (max-width: 770px) {
+    .heading {
+      font-size: 7em;
+      line-height: 1.15;
+      margin: 0;
+    }
+  }
+  
+  .subheading {
+    text-align: center;
+    max-width: 480px;
+    font-size: 1.5em;
+    line-height: 1.15em;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+  @media (max-width: 770px) {
+    .subheading {
+      font-size: 1.3em;
+      line-height: 1.15;
+      max-width: 100%;
+    }
+  }
+  
+  .right-section {
+    width: 50%;
+  }
+  @media (max-width: 770px) {
+    .right-section {
+      width: 100%;
+      height: 60%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  
+  .svgimg {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10vh;
+    padding-left: 1vh;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  @media (max-width: 770px) {
+    .svgimg {
+      padding: 0;
+    }
+  }
+  .svgimg .bench-legs {
+    fill: #0C0E10;
+  }
+  .svgimg .top-bench, .svgimg .bottom-bench {
+    stroke: #0C0E10;
+    stroke-width: 1px;
+    fill: #5B3E2B;
+  }
+  .svgimg .bottom-bench path:nth-child(1) {
+    fill: #432d20;
+  }
+  .svgimg .lamp-details {
+    fill: #202425;
+  }
+  .svgimg .lamp-accent {
+    fill: #2c3133;
+  }
+  .svgimg .lamp-bottom {
+    fill: linear-gradient(#202425, #0C0E10);
+  }
+  .svgimg .lamp-light {
+    fill: #EFEFEF;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 1rem #fefefe;
+    }
+    50% {
+      text-shadow: 0 0 1.85rem #ededed;
+    }
+    100% {
+      text-shadow: 0 0 1rem #fefefe;
+    }
+  }
+/*Page not found..............*/
 
 /* iFrame start ...................*/
 /* iFrame end...................... */
