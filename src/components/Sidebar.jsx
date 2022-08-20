@@ -24,13 +24,21 @@ const Sidebar = () => {
                 </Link>
             </li>
             <li>
+                <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
+                    <span>Contact Whatsapp</span>
+                </Link>
+            </li>
+            <li>
                 <Link to="/foire-aux-questions">
                 <span>FAQ</span></Link>
             </li>
             <li>
-                <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
-                    <span>Contact Whatsapp</span>
-                </Link>
+                <Link to="/qui-sommes-nous">
+                <span>Qui sommes-nous!</span></Link>
+            </li>
+            <li>
+                <Link to="/localisation">
+                <span>Localisation</span></Link>
             </li>
             <li className="small">
                 <Link to="#" target="_blank" title="Facebook" className="socials-item">

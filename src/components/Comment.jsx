@@ -60,8 +60,6 @@ const Comment = () => {
                 <label htmlFor="email">Email <span className="required">*</span></label>
                 <input type="email" id="email" name="email" value={adresse} onChange={handleChangeAdresse} size="70" maxLength="100" aria-describedby="email-notes" required="required"/>
                 <br /><br />
-                <input type="checkbox" id="comment-cookies-consent" name="cookies-consent" value="yes"/>
-                <label htmlFor="comment-cookies-consent"> Mémoriser mes coordonnées!</label><br />
                 <input type="checkbox" name="cookies-consent" id='getinfo' value="1"/>
                 <label htmlFor="getinfo"> Avoir les infos de ETRALIS</label><br />
                 <button className="submit" value="Poster">ENVOYER</button>

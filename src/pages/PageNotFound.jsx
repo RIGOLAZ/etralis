@@ -1,4 +1,5 @@
 import React from 'react';
+import { backward } from '../data';
 
 const PageNotFound = () => {
     return (
@@ -11,6 +12,7 @@ const PageNotFound = () => {
 		<div class="inner-content">
 			<h1 class="heading">404</h1>
 			<p class="subheading">On dirait que vous avez pris un mauvais chemin.</p>
+      <button onClick={backward} className="submit" value="Poster">RETOUR</button>
 		</div>
 	</div>
 	<div class="right-section">
