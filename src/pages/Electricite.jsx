@@ -22,7 +22,7 @@ const Electricite = () => {
 				<div className="inner">
             <div className="container">
 			{/* <!-- article body  --> */}
-			<div id="article-body" className="body">
+			<div className="body">
 				<p><span id='lettrine'>L</span>'électricité est un élément naturel nécesssaire, voire indispensable pour le fonctionnement de la grande majorité des appareils que nous utilisons en longueur de journée. C'est un phénomène très dangereux, c'est pour cela qu'il est important, voire primordial que les installations électriques soient gérées par des professionnels du métier pour une utilisation optimale et en toute sécurité.
 					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p>
 				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a> </p>
