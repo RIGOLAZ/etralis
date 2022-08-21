@@ -18,7 +18,7 @@ const Footer1 = () => {
         <li><NavLink to='/plomberie' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Plomberie</NavLink></li>
         <li><NavLink to='/courant-faible' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Courant faible</NavLink></li>
         <li><NavLink to='/chaudronnerie' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Chaudronnerie</NavLink></li>
-        <li><NavLink to='/btp' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">BTP-Urbanisme</NavLink></li>
+        {/* <li><NavLink to='/btp' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">BTP-Urbanisme</NavLink></li> */}
         <li><NavLink to='/avionique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Avionique</NavLink></li>
       </ul>
       <ul className="footer-list-top">
