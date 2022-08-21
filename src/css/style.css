@@ -371,7 +371,7 @@ nav a:hover:before {
 }
 .intro{
     flex-direction: column;
-    min-height: 250px;
+    min-height: 175px;
     background-size: cover;
     border-radius: 0 0 10px 10px;
 }
