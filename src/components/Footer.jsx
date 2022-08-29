@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import googleBadge from "../css/bg-img/playstore.svg";
-import appleBadge from "../css/bg-img/applestore.svg";
 
 const Footer1 = () => {
     return (
@@ -50,10 +48,10 @@ const Footer1 = () => {
       </div>
         <div className='block2'>
           <div>
-          <Link to="#" target="_blank" title='Android app'><img id='badge' src={googleBadge} alt="Google" /></Link>
+          <Link to="#" target="_blank" title='Android app'><img id='badge' src="https://res.cloudinary.com/do8lyndou/image/upload/v1661732284/playstore_ypwutl.svg" alt="Google" /></Link>
           </div>
           <div>
-            <Link to="#" target="_blank" title='apple app'><img id='badge' src={appleBadge} alt="Apple" /></Link>
+            <Link to="#" target="_blank" title='apple app'><img id='badge' src="https://res.cloudinary.com/do8lyndou/image/upload/v1661732284/applestore_tbhf2i.svg"alt="Apple" /></Link>
           </div>
         </div>
       <section className="footer-social-section flex-rw">

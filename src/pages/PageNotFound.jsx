@@ -10,7 +10,7 @@ const PageNotFound = () => {
 <div className="notFound">
 	<div className="left-section">
 		<div className="inner-content">
-      <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1652787741/official-logo-ets_ivl0ag.svg" alt="strobe" />
+      <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1661733887/trademark-large_cnqc3v.svg" alt="strobe" />
 			<h1 className="heading">404</h1>
 			<p className="subheading">On dirait que vous avez pris un mauvais chemin.</p>
       <Link to="/"><button className="submit">ACCUEIL</button></Link>
