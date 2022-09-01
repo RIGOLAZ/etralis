@@ -2,7 +2,7 @@ import React from 'react';
 
 const Illustration = () => {
     return (
-        <>
+        <div className='illust'>
             <h4>Quelques médias d'illustration des équipes à l'oeuvre</h4>
             <div className="slides slowFade">
         <div className="slide">
@@ -24,7 +24,7 @@ const Illustration = () => {
             <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1652636113/IMG-20220515-WA0002_jco5cq.jpg" alt="img"/>
         </div>
             </div>
-        </>
+        </div>
     );
 };
 

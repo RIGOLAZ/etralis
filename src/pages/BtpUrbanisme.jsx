@@ -13,9 +13,11 @@ const BtpUrbanisme = () => {
             <Sidebar />
         <main>
             <div id="marge"></div>
-            <div className='ref'>
-            <i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h3>BTP ET URBANISME</h3>
-            </div>
+            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1662051853/Building_ve6lth.jpg")`}} >
+			<div className='titre-home'>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>BTP ET URBANISME</h1>
+			</div>
+		</div>
             <ComingSoon />
             <Comment />
         </main>

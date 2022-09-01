@@ -1142,24 +1142,22 @@ a.socials-item {
 .facebook {
     color: #4e64b5;
 }
-
 .twitter {
     color: #00aced;
+}
+.linkedin{
+    color:#0A66C2;
+}
+.youtube {
+  color: #c82929;
 }
 .instagram {
     color: #9a8f62;
 }
-.youtube {
-    color: #c82929;
-}
-
-.telegram {
+/* .telegram {
     color: #2ca5e0;
-}
+} */
 
-.linkedin{
-    color:#0A66C2;
-}
 /*Style social end*/
 
 .footer-bottom-section {
