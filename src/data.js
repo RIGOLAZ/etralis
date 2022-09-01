@@ -59,7 +59,7 @@ export const offre=[
         id:9,
         homoHeadColor:"#FFFFFF",
         title:"BTP ET URBANISME",
-        desc:"Contruuction Hôpitaux, Hôtels, SCI, Ecoles, Cités, etc...",
+        desc:"Construction Hôpitaux, Hôtels, SCI, Ecoles, Cités, etc...",
         lien: "/btp",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
     }
