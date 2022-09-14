@@ -53,7 +53,6 @@ const App = () => {
           <Route path='/travaux-programmes' element={<TrxPgr />}/>
           <Route path='/termes' element={<Termes />} />
           <Route path='/confidentialite' element={<Confidentialite />}/>
-          
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

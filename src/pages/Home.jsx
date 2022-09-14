@@ -19,7 +19,7 @@ const Home = () => {
                 </div><br />
                 <div className='enBref'>
                     <p>Techniciens fiables et de qualité en local<br />
-                    Nous appeler au: <a href="tel:677077030"> 677 07 70 30</a> / <a href="tel:694088330">694 08 83 30</a></p>
+                    Nous appeler au: <a href="tel:677077030"> 677 07 70 30</a></p>
                     <p>Ou nous conctacter sur whatsapp  <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
                     <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="message" /></Link></p>
                 </div>

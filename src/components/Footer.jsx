@@ -23,7 +23,6 @@ const Footer1 = () => {
           <h4 className="footer-list-header">CONTACT RAPIDE</h4></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Téléphone:</li>
         <li><a href="tel:677077030" className="generic-anchor footer-list-anchor" itemProp="significantLink">677077030</a></li>
-        <li><a href="tel:694088330" className="generic-anchor footer-list-anchor" itemProp="significantLink">694088330</a></li>
         <li><Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
         <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="message" /></Link></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Email:</li>
