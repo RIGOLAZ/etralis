@@ -986,7 +986,7 @@ section {
   --bkgfoot: #1f1e28;
   --linebrake: rgba(108, 127, 153, 0.2);
   --bkgfoot3: rgb(55, 55, 55);
-  --foot: #5e6268;
+  --foot: #757575;
 }
 
 /* * {
@@ -1055,7 +1055,6 @@ footer a:hover{
 }
 
 .footer-list-top > li {
-  /* text-align: center; */
   padding-bottom: 2px;
 }
 .footer-list-header {

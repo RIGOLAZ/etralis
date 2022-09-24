@@ -6,8 +6,7 @@ const Footer1 = () => {
       <footer className="flex-rw">
       <div className='block1'>
       <ul className="footer-list-top">
-        <li>
-          <h4 className="footer-list-header">SERVICES</h4></li>
+        <li><h4 className="footer-list-header">SERVICES</h4></li>
         <li><NavLink to='/electricite' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Electricité</NavLink></li>
         <li><NavLink to='/informatique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Informatique</NavLink></li>
         <li><NavLink to='/electromecanique' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Electro mécanique</NavLink></li>
