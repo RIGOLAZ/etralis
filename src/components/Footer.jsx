@@ -22,8 +22,7 @@ const Footer1 = () => {
           <h4 className="footer-list-header">CONTACT RAPIDE</h4></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Téléphone:</li>
         <li><a href="tel:677077030" className="generic-anchor footer-list-anchor" itemProp="significantLink">677077030</a></li>
-        <li><Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
-        <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="message" /></Link></li>
+        <li><a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/237677077030" rel="noopener noreferrer" ><img alt="ChatOnWhatsApp" src="https://res.cloudinary.com/do8lyndou/image/upload/v1664041525/WhatsAppButtonGreenSmall_hjj8wm.svg" /></a></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Email:</li>
         <li><a href='mailto:support@etralis.com' itemProp="significantLink" className="generic-anchor footer-list-anchor">support@etralis.com</a></li>
       </ul>
