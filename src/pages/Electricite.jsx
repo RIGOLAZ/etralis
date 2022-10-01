@@ -42,8 +42,8 @@ const Electricite = () => {
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
 				<h3>Aménagement dans un nouveau local</h3>
-				<p>Lors de l’aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricié, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
-					Pour tout besoin ponctuel d'accompagnement, nous contacter directement <a href="tel:677077030">677077030</a>.<br/> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
+				<p>Lors de l’aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricité, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
+					Pour tout besoin ponctuel d'accompagnement, nous contacter directement au <a href="tel:677077030">677077030</a>.<br/> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
 				<h3>Les critères d'une installation aux normes</h3>
 				<h4>Sélectivité</h4>
 				<p>Une panne électrique survenue dans un local précis d'un bâtiment ne devrait pas en affecter un autre de près ou de loin pour quelque raison que ce soit. Il est donc besoin de faire *<strong>une sélectivité</strong>* afin d'éviter tout désagrément de ce type.</p>
