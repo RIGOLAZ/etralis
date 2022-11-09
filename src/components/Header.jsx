@@ -6,7 +6,7 @@ const Header = () => {
         <>
         <div className="top-menu">
             <div id="trademark">
-                <Link to='/'>
+                <Link to='/accueil'>
                     <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1661730711/etralis-button_mpcbch.svg" alt="strobe" />
                 <span style={{color:"white", fontWeight:"bold", paddingLeft:"10px", position:"absolute", top:"6px"}}>ETRALIS</span>
                 </Link>
@@ -18,7 +18,7 @@ const Header = () => {
             </nav>
             <span id='joindre'>
             <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
-                    <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="whats" /></Link>
+                <img style={{width:"24px"}} src="https://res.cloudinary.com/do8lyndou/image/upload/v1652839538/whatsapp_button_sjtqz2.svg" alt="whats" /></Link>
             </span>
         </div>
         </>
