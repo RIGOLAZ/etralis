@@ -77,7 +77,7 @@ strong {
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
-  -webkit-appearance: none;
+  appearance: none;
   background: transparent;
   left: 16px;
   top: 0;
