@@ -33,7 +33,7 @@ const Sidebar = () => {
                 <span>FAQ</span></Link>
             </li>
             <li>
-                <Link to="/qui-sommes-nous">
+                <Link to="/a-propos">
                 <span>Qui sommes-nous!</span></Link>
             </li>
             <li>

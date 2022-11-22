@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/style.css';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import Contacts from './pages/Contacts';
 import InfoAppli from './pages/InfoAppli';
 import Partenariat from './pages/Partenariat';
 import Electricite from './pages/Electricite';
@@ -15,7 +14,6 @@ import CourantFaible from './pages/CourantFaible';
 import Plomberie from './pages/Plomberie';
 import Chaudronnerie from './pages/Chaudronnerie';
 import BtpUrbanisme from './pages/BtpUrbanisme';
-import QuiSommesNous from './pages/QuiSommesNous';
 import OffreEmploi from './pages/OffreEmploi';
 import Faq from './pages/Faq';
 import Localisation from './pages/Localisation';
@@ -23,6 +21,7 @@ import TrxPgr from './components/TrxPgr';
 import Termes from './pages/Termes';
 import Confidentialite from './pages/Confidentialite';
 import PageNotFound from './pages/PageNotFound';
+import AboutUs from './pages/About-us';
 
 const App = () => {
   return (
@@ -33,7 +32,7 @@ const App = () => {
           <Route path='/home' element={<Home/>} />
           <Route path='/accueil' element={<Home/>} />
           <Route path="/services" element={<Services/>} />
-          <Route path='/contacts' element={<Contacts/>}/>
+          <Route path='/a-propos' element={<AboutUs />} />
           <Route path='/info-appli' element={<InfoAppli/>}/>
           <Route path='/partenariat' element={<Partenariat />} />
           <Route path='/electricite' element={<Electricite />} />
@@ -45,7 +44,6 @@ const App = () => {
           <Route path='/courant-faible' element={<CourantFaible />} />
           <Route path='/chaudronnerie' element={<Chaudronnerie />} />
           <Route path='/btp' element={<BtpUrbanisme />} />
-          <Route path='/qui-sommes-nous' element={<QuiSommesNous />} />
           <Route path='/partenariat' element={<Partenariat />} />
           <Route path='/offre-d-emploi' element={<OffreEmploi />} />
           <Route path='/foire-aux-questions' element={<Faq />} />

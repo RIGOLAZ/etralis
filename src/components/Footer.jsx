@@ -29,7 +29,7 @@ const Footer1 = () => {
       <ul className="footer-list-top">
         <li>
           <h4 className="footer-list-header">A PROPOS</h4></li>
-        <li><NavLink to='/qui-sommes-nous' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Qui sommes-nous</NavLink></li>
+        <li><NavLink to='/a-propos' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Qui sommes-nous</NavLink></li>
         <li><NavLink to='/info-appli' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Info appli</NavLink></li>
         <li><NavLink to='/partenariat' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink">Devenez partenaire</NavLink></li>
         <li><NavLink to='/offre-d-emploi' className={({isActive}) =>(isActive ? 'nav-serv-active' : 'footer-list-anchor')} itemProp="significantLink" >Offre d'emploi</NavLink></li>
