@@ -405,7 +405,10 @@ nav a:hover:before {
 #lettrine{
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+#dvr{
+  display: inline;
 }
 
 .enBref{
@@ -729,8 +732,9 @@ section {
   cursor: pointer;
   text-decoration: underline;
 }
-.body strong{
-    font-weight: 700;
+.body #equip{
+  font-weight: bold;
+  font-size: 27px;
 }
 .body ul{
     list-style-type: disc;
@@ -982,7 +986,7 @@ section {
 
 .propos img {
 float: left;
-height: 500px;
+height: 600px;
 shape-outside: ellipse(224px 320px at 35.1% 50%);
 }
 
@@ -1037,6 +1041,13 @@ padding-top: 1.5rem;
 
 .first {
 padding-top: 1.22rem;
+}
+
+@media screen and (max-width:660px) {
+  .propos img {
+    height: 400px;
+    shape-outside: ellipse(224px 320px at 35.1% 50%);
+    }
 }
 
 /*About us ends...............*/
