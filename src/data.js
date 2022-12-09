@@ -12,7 +12,7 @@ export const offre=[
         title:"INFORMATIQUE",
         desc:"Technique d'assistance, développement d'application web et mobile, réseau informatique.",
         lien: "/informatique",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659815108/photo-1561736778-92e52a7769ef_qzzfwd.jpg"
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670596669/Informatic_e4ns0a.jpg"
     },{
         id:3,
         homoHeadColor:"#FFFFFF",
@@ -33,14 +33,14 @@ export const offre=[
         title:"PLOMBERIE DOMESTIQUE ET INDUSTRIELLE",
         desc:"Tuyauterie domestique et industrielle, sanitaire, mécanique des fluides.",
         lien: "/plomberie",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659817795/photo-1653379290878-1e839993509a_relqw5.jpg"
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670596140/plomberie_uva9p4.jpg"
     },{
         id:6,
         homoHeadColor:"#FFFFFF",
         title:"COURANT FAIBLE",
         desc:"Vidéo surveillance, domotique, alarme incendie et gaz, détection de mouvements, contrôle d'accès, point d'accès wifi.",
         lien: "/courant-faible",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg"
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670594868/Courant_faible_mr5ioq.jpg"
     },{
         id:7,
         homoHeadColor:"#FFFFFF",

@@ -12,7 +12,7 @@ const Plomberie = () => {
         <Sidebar />
     <main>
         <div id="marge"></div>
-        <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659817795/photo-1653379290878-1e839993509a_relqw5.jpg")`}} >
+        <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1670596140/plomberie_uva9p4.jpg")`}} >
 			<div className='titre-home'>
 				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>PLOMBERIE DOMESTIQUE ET INDUSTRIELLE</h1>
 			</div>

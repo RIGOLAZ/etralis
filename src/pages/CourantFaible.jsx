@@ -13,7 +13,7 @@ const courantFaible = () => {
             <Sidebar />
         <main>
             <div id="marge"></div>
-            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg")`}} >
+            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1670594868/Courant_faible_mr5ioq.jpg")`}} >
 			<div className='titre-home'>
 				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>COURANT FAIBLE</h1>
 			</div>
@@ -27,7 +27,7 @@ const courantFaible = () => {
 			<div className="body">
 				<p><span id='lettrine'>L</span>e courant faible est l'opposé du courant fort. Il ne transfère pas de l'energie électrique, mais plutôt du signal électrique (<strong>moins de 10mA</strong>). Il est assimilé à tout système basé sur le transfert d'informations et de données. Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p>
 				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a> </p>
-				<h2>VIDEO SURVEILLANCE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670410188/photo-1669307613393-25ca05329034_ab3aoo.jpg" alt="bedroom" />
+				<h2>VIDEO SURVEILLANCE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg" alt="bedroom" />
 				<p>Dans le but de surveiller les lieux, des biens, personnes … des particuliers font de plus en plus recours aux systèmes de vidéosurveillance. Il existe deux types de systèmes de vidéosurveillance: analogique et numérique. Dans ce document, nous présenterons de manière détaillée ses différents systèmes.</p>
                 <p id='equip'>Equipements de gestion</p>
                 <p>La gestion d’un système de vidéosurveillance se fait par plusieurs équipements (<strong><i>DVR, NVR, serveur, logiciels</i></strong> ). Toute fois le choix de l’équipement de gestion dépend des besoins de l’utilisateur.</p>
@@ -52,11 +52,11 @@ const courantFaible = () => {
                 <p>L’emplacement d’une caméra dans un système de vidéosurveillance impose une forme précise. On distingue:</p>
                 <p><strong>CAMERA DÔME</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670430087/Camera_d%C3%B4me_uxt5nv.png" alt="dôme" /></p>
                 <p> Elle peut être placée à l’intérieur comme à l’extérieur, peut être fixer sur le plafond ou le mur et possède plusieurs modelés : Caméra PTZ (Pan tilt Zoom) motorisée et non motorisée : est une caméra capable d’être pilotée à distance (modification de l’angle de vison), et de zoomer par elle-même</p>
-                <p><strong>CAMERA BULLET</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670430761/Camera_bullet_s3qpso.png" alt="bullet" /></p>
+                <p><strong>CAMERA BULLET</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670595298/Camera_bullet_ygwgfx.png" alt="bullet" /></p>
 				<p>Elle possède une tige et est utilisée pour la surveillance des routes, l’extérieur des maisons.</p>
-                <h2>DOMOTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659879626/Domo-mini_xeqf4i.jpg" alt="lampadaire" />
-				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, adipisci, esse tenetur quod eum veniam nulla odio autem, aut illum exercitationem quaerat doloremque aspernatur architecto doloribus natus? Accusamus, magni laboriosam.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum facere et totam ducimus quo, corrupti a vel nam, reiciendis omnis magni id tempore laboriosam ipsa. Possimus nisi voluptate dolore?</p>
+                <h2>DOMOTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659879626/Domo-mini_xeqf4i.jpg" alt="domo" />
+                <p>Le mot “<strong>domotique</strong>” vient de “domus” qui signifie “<strong>domicile</strong>“,&nbsp;et du suffixe “tique” qui fait référence à la<span>&nbsp;</span><strong>technique?</strong> D'après &nbsp;<a href="https://fr.wikipedia.org/wiki/Domotique" target="_blank" rel="noopener noreferrer">Wikipedia</a><span>&nbsp;</span>:</p>
+                <p>La domotique est l’ensemble des techniques de l'électronique, de physique du bâtiment, d'automatisme, de l'informatique et des télécommunications utilisées dans les bâtiments, plus ou moins « interopérables » et permettant de centraliser le contrôle des différents systèmes et sous-systèmes de la maison et de l'entreprise (chauffage, volets roulants, porte de garage, portail d'entrée, prises électriques, etc.).<span>&nbsp;</span><strong>La domotique vise à apporter des solutions techniques pour répondre aux besoins de confort</strong><span>&nbsp;</span>(gestion d'énergie, optimisation de l'éclairage et du chauffage),<span>&nbsp;</span><strong>de sécurité</strong><span>&nbsp;</span>(alarme)<span>&nbsp;</span><strong>et de communication</strong><span>&nbsp;</span>(commandes à distance, signaux visuels ou sonores, etc.)<span>&nbsp;</span><strong>que l'on peut retrouver dans les maisons</strong>, les hôtels, les lieux publics, etc.</p>
 				<h2>ALARME INCENDIE ET GAZ</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670488527/fire-alarm_s6aof6.jpg" alt="Biomedical" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, adipisci, esse tenetur quod eum veniam nulla odio autem, aut illum exercitationem quaerat doloremque aspernatur architecto doloribus natus? Accusamus, magni laboriosam.
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum facere et totam ducimus quo, corrupti a vel nam, reiciendis omnis magni id tempore laboriosam ipsa. Possimus nisi voluptate dolore?
