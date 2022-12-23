@@ -25,9 +25,9 @@ const Electricite = () => {
 			<div className="body">
 				<p><span id='lettrine'>L</span>'électricité est un élément naturel nécesssaire, voire indispensable pour le fonctionnement de la grande majorité des appareils que nous utilisons en longueur de journée. C'est un phénomène très dangereux, c'est pour cela qu'il est important, voire primordial que les installations électriques soient gérées par des professionnels du métier pour une utilisation optimale et en toute sécurité.
 					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p>
-				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a> </p>
+				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p>
 				<h2>ELECTRICITE DOMESTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659882997/photo-1599709173687-64dcfed43386_wbtwll.jpg" alt="bedroom" />
-				<p>C’est l’électricité du réseau électrique cablée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).
+				<p>C'est l'électricité du réseau électrique cablée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).
 					Ces endroits sont en majorité fréquentés par des adultes, aussi souvent par les enfants et des animaux domestiques. Ceci dit, les installations domestiques doivent respecter une certaine norme de sécurité pour éviter un incident ou pire. c'est pourquoi il est primordial que les installations soient faites par un professionnel du métier.</p>
 				<h2>ELECTRICITE PUBLIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1660467303/eclairage-public_f4jvq2.jpg" alt="lampadaire" />
 				<p>C'est l'électricité installée à l'intérieur et à l'extérieur des villes, ceci dans le but de sécurité et de confort des passants. Elle est composée entre autres de <strong>l'éclairage public</strong>, <strong>les feux de signalisation</strong>, etc...
@@ -42,7 +42,7 @@ const Electricite = () => {
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
 				<h3>Aménagement dans un nouveau local</h3>
-				<p>Lors de l’aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricité, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
+				<p>Lors de l'aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricité, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
 					Pour tout besoin ponctuel d'accompagnement, nous contacter directement au <a href="tel:677077030">677077030</a>.<br/> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
 				<h3>Les critères d'une installation aux normes</h3>
 				<h4>Sélectivité</h4>
@@ -54,7 +54,7 @@ const Electricite = () => {
 				<p>Toute construction devrait avoir des appareillages dédiés à la protection des personnes qui utilisent les différents appareils à carcasse métallique présents et accessibles tels que refrigérateurs, fer à repasser, cuisinière électrique, etc... d'où l'importance d'installer le dispositif de terre accompagné des disjoncteurs spécifiques.</p>
 				<h4>Circuits repérés et plan de la maison</h4>
 				<p>Un tableau électrique fait par un professionnel du métier devrait contenir des stickers permettant d'identifier l'appareillage de protection qui commande tel appareil ou tel local, ceci appuyé par un plan électrique de la maison. Cette pratique permet d'anticiper dans les besoins futurs et aide quiconque, technicien comme simple usager, à vite se repérer lors d'une intervention quelconque. <br />
-					Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus "Chauffe eau chambre parents", n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
+					Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus <strong>"Chauffe eau chambre parents"</strong>, n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
 			</div>
 			</div>
 				</div>

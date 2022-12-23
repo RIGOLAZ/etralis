@@ -13,7 +13,7 @@ const InfoAppli = () => {
         <div id="marge1"></div>
         <div className="contenu">
             <div className="info-content">
-                <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1652787741/official-logo-ets_ivl0ag.svg" alt="logo RIGOLAZ" />
+                <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1668876534/etralis-button_iqara4.svg" alt="logo RIGOLAZ" />
                 <p>Application version 1.0.1</p>
                 <p>Editeur:</p>
                 <p>Rigobert EKWA MOUNGUI</p>
