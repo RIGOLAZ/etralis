@@ -17,8 +17,8 @@ const Partenariat = () => {
 			{/* <!-- article body  --> */}
 			<div className="body">
                 <h1>Partenariat</h1>
-				<p><a href="https://rigolaz-c5df3.web.app/">https://rigolaz-c5df3.web.app/</a></p>
-                <p><a href="https://mediplus.cm">mediplus.cm</a></p>
+				<p><a href="https://rigolaz-c5df3.web.app/">https://rigolaz.com</a></p>
+                <p><a href="https://mediplus.cm">https://mediplus.cm</a></p>
 			</div>
 			</div>
 				</div>

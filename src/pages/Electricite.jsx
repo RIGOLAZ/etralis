@@ -24,7 +24,7 @@ const Electricite = () => {
 			{/* <!-- article body  --> */}
 			<div className="body">
 				<p><span id='lettrine'>L</span>'électricité est un élément naturel nécesssaire, voire indispensable pour le fonctionnement de la grande majorité des appareils que nous utilisons en longueur de journée. C'est un phénomène très dangereux, c'est pour cela qu'il est important, voire primordial que les installations électriques soient gérées par des professionnels du métier pour une utilisation optimale et en toute sécurité.
-					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p>
+					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p><br />
 				<p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p>
 				<h2>ELECTRICITE DOMESTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659882997/photo-1599709173687-64dcfed43386_wbtwll.jpg" alt="bedroom" />
 				<p>C'est l'électricité du réseau électrique cablée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).

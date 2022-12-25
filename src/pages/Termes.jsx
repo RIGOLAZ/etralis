@@ -1,5 +1,4 @@
 import React from 'react';
-import Comment from '../components/Comment';
 // import ComingSoon from '../components/ComingSoon';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -53,7 +52,6 @@ const Termes = () => {
 			</div>
 				</div>
 			</section>
-			<Comment />
         </main>
         <Footer />
         </>
