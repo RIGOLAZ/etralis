@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Rubrique from '../components/Rubrique';
 import Comment from '../components/Comment'
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
 
 const Home = () => {
     return (

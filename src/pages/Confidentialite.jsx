@@ -3,8 +3,8 @@ import AstucesConseils from '../components/AstucesConseils';
 import ComingSoon from '../components/ComingSoon';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Sidebar from '../components/sidebar';
 import { backward } from '../data';
+import Sidebar from '../components/Sidebar';
 
 const Confidentialite = () => {
     return (

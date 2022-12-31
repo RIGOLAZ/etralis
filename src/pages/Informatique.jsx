@@ -3,7 +3,7 @@ import ComingSoon from '../components/ComingSoon';
 import Comment from '../components/Comment';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
 import {backward} from '../data'
 
 const Informatique = () => {
