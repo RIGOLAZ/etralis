@@ -15,7 +15,7 @@ const courantFaible = () => {
             <div id="marge"></div>
             <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1670594868/Courant_faible_mr5ioq.jpg")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>COURANT FAIBLE</h1>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>COURANT FAIBLE</h2>
 			</div>
 		</div>
             {/* <ComingSoon /> */}

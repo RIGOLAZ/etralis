@@ -66,7 +66,7 @@ const Faq = () => {
                         <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                           <summary itemprop="name"><strong>Puis-je faire des achats de matériel en ligne dans ce site?</strong></summary>
                             <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                            <p>Pour l'instant, la partie dédiée aux achats de matériel en ligne n'est pas encore disponible sur etralis.com, mais elle est en cours d'implémentation et sera disponible en févier.</p>
+                            <p>Pour l'instant, la partie dédiée aux achats de matériel en ligne n'est pas encore disponible sur etralis.com, mais elle est en cours d'implémentation et sera disponible en mars.</p>
                           </div>
                         </details>
                       </div>

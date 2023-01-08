@@ -15,7 +15,7 @@ const Chaudronnerie = () => {
             <div id="marge"></div>
             <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659877478/Chaudronnier_edl6or.jpg")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>CHAUDRONNERIE</h1>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>CHAUDRONNERIE</h2>
 			</div>
 		</div>
             <ComingSoon />

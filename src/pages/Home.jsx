@@ -18,7 +18,7 @@ const Home = () => {
                 </div><br />
                 <div className='enBref'>
                     <p>Techniciens fiables et de qualité en local<br />
-                    Nous appeler au: <a href="tel:677077030"> 677 07 70 30</a></p><br />
+                    Nous appeler au: <a href="tel:677077030">(+237) 677 07 70 30</a></p><br />
                     <a aria-label="Chat on WhatsApp" href="//wa.me/237677077030" target="_blank" rel="noopener noreferrer"> <img alt="ChatOnWhatsApp" src="https://res.cloudinary.com/do8lyndou/image/upload/v1664041525/WhatsAppButtonGreenSmall_hjj8wm.svg" /> </a>
                 </div>
             </div>

@@ -13,9 +13,9 @@ const FroidClimatisation = () => {
             <Sidebar />
         <main>
             <div id="marge"></div>
-            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1659816117/photo-1659164839265-9bb2f08aacb1_xjvjwv.jpg")`}} >
+            <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1672842871/AC_p3xddj.jpg")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>FROID ET CLIMATISATION</h1>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>FROID ET CLIMATISATION</h2>
 			</div>
 		</div>
             <ComingSoon />

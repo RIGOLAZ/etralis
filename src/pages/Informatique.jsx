@@ -15,7 +15,7 @@ const Informatique = () => {
             <div id="marge"></div>
             <div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1670596669/Informatic_e4ns0a.jpg")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h1>INFORMATIQUE</h1>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>INFORMATIQUE</h2>
 			</div>
 		</div>
             <ComingSoon />
