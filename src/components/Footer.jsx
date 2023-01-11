@@ -21,7 +21,7 @@ const Footer1 = () => {
         <li>
           <h4 className="footer-list-header">CONTACT RAPIDE</h4></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Téléphone:</li>
-        <li><a href="tel:677077030" className="generic-anchor footer-list-anchor" itemProp="significantLink">677077030</a></li>
+        <li><a href="tel:677077030" className="generic-anchor footer-list-anchor" itemProp="significantLink">677077030</a></li><br />
         <li><a aria-label="Chat on WhatsApp" target="_blank" href="//wa.me/237677077030" rel="noopener noreferrer" ><img alt="ChatOnWhatsApp" src="https://res.cloudinary.com/do8lyndou/image/upload/v1664041525/WhatsAppButtonGreenSmall_hjj8wm.svg" /></a></li>
         <li className='generic-anchor footer-list-anchor' itemProp="significantLink">Email:</li>
         <li><a href='mailto:support@etralis.com' itemProp="significantLink" className="generic-anchor footer-list-anchor">support@etralis.com</a></li>
@@ -74,7 +74,7 @@ const Footer1 = () => {
       <section className="footer-bottom-section flex-rw">
     <div className="footer-bottom-wrapper">   
     <i className="fa fa-copyright">
-    </i> 2022 ETRALIS <address className="footer-address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
+    </i> 2023 ETRALIS <address className="footer-address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
         </div>
         <div className="footer-bottom-wrapper">
         <Link to="/termes" className="generic-anchor" rel="nofollow">Termes</Link> | <Link to="/confidentialite" className="generic-anchor" rel="nofollow">Confidentialité</Link>

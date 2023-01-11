@@ -375,6 +375,12 @@ nav a:hover:before {
     border-radius: 0 0 10px 10px;
 }
 
+#tel{
+  position: relative;
+  width: 16px;
+  top: 3px;
+}
+
 .titre-home{
     font-family:'Montserrat';
     color:#ffffff;
@@ -393,7 +399,8 @@ nav a:hover:before {
     position: relative;
     padding: 10px;
     cursor: pointer;
-    top:0;
+    top:-2px;
+    margin: 10px 5px;
 }
 
 .apearance2{
@@ -590,7 +597,7 @@ section {
     margin-left: auto;
     font-size: 16px;
     color: var(--words);
-    text-align: justify;
+    /* text-align: justify; */
 }
 .container::before{
     content: " ";
@@ -739,7 +746,6 @@ section {
 }
 
 .body p{
-  /* font-family: 'Open Sans',sans-serif; */
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   margin-top: 0.5em;
@@ -758,8 +764,8 @@ section {
   text-decoration: underline;
 }
 .body #equip{
-  font-weight: bold;
-  font-size: 27px;
+  /* font-weight: bold; */
+  font-size: 25px;
 }
 .body ul{
     list-style-type: disc;
@@ -1680,7 +1686,7 @@ pre {
         bottom: 8px;
     }
     .titre-home{
-        font-size: 10px;
+        font-size: 13px;
         margin-top: 20px;
     }
 
