@@ -18,7 +18,7 @@ const Home = () => {
                 </div><br />
                 <div className='enBref'>
                     <p>Techniciens fiables et de qualité en local<br />
-                    <a href="tel:677077030"><img id='tel' src="https://www.1ere-position.fr/wp-content/themes/m1press-theme/static/img/phone-new-blanc.svg" alt="phone" /> 677 07 70 30</a><br /><br />
+                    <a href="tel:677077030"><img id='tel' src="https://www.1ere-position.fr/wp-content/themes/m1press-theme/static/img/phone-new-blanc.svg" alt="phone" /> +237 677077030</a><br /><br />
                     <a aria-label="Chat on WhatsApp" href="//wa.me/237677077030" target="_blank" rel="noopener noreferrer"> <img alt="ChatOnWhatsApp" src="https://res.cloudinary.com/do8lyndou/image/upload/v1664041525/WhatsAppButtonGreenSmall_hjj8wm.svg" /> </a></p>
                 </div>
             </div>

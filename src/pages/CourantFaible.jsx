@@ -57,17 +57,31 @@ const courantFaible = () => {
                 <p>Le mot “<strong>domotique</strong>” vient de “domus” qui signifie “<strong>domicile</strong>“,&nbsp;et du suffixe “tique” qui fait référence à la<span>&nbsp;</span><strong>technique?</strong> D'après &nbsp;<a href="https://fr.wikipedia.org/wiki/Domotique" target="_blank" rel="noopener noreferrer">Wikipedia</a><span>&nbsp;</span>:</p>
                 <p>La domotique est l’ensemble des techniques de l'électronique, de physique du bâtiment, d'automatisme, de l'informatique et des télécommunications utilisées dans les bâtiments, plus ou moins « interopérables » et permettant de centraliser le contrôle des différents systèmes et sous-systèmes de la maison et de l'entreprise (chauffage, volets roulants, porte de garage, portail d'entrée, prises électriques, etc.).<span>&nbsp;</span><strong>La domotique vise à apporter des solutions techniques pour répondre aux besoins de confort</strong><span>&nbsp;</span>(gestion d'énergie, optimisation de l'éclairage et du chauffage),<span>&nbsp;</span><strong>de sécurité</strong><span>&nbsp;</span>(alarme)<span>&nbsp;</span><strong>et de communication</strong><span>&nbsp;</span>(commandes à distance, signaux visuels ou sonores, etc.)<span>&nbsp;</span><strong>que l'on peut retrouver dans les maisons</strong>, les hôtels, les lieux publics, etc.</p><br />
 				<h2>ALARME INCENDIE ET GAZ</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670488527/fire-alarm_s6aof6.jpg" alt="Biomedical" />
-				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, adipisci, esse tenetur quod eum veniam nulla odio autem, aut illum exercitationem quaerat doloremque aspernatur architecto doloribus natus? Accusamus, magni laboriosam.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum facere et totam ducimus quo, corrupti a vel nam, reiciendis omnis magni id tempore laboriosam ipsa. Possimus nisi voluptate dolore?
-				</p><br />
+				<p>L’alarme incendie un dispositif permettant d’avertir le public présent dans un bâtiment, ainsi que le personnel, qu’un incendie s’est déclenché. Il est alors possible d’évacuer les lieux pour que toutes les personnes présentes dans le bâtiment soient en sécurité.</p>
+                <p>Il convient d’installer un détecteur de fumée à chaque étage du bâtiment. Vous devez privilégier :</p>
+                <ul>
+                    <li><strong>Les chambres</strong> Tout d’abord, pour être prévenu de l’incendie si vous dormez.</li>
+                    <li><strong>Les escaliers</strong> Le lieu est rapidement envahi lors d’un incendie</li>
+                    <li><strong>Les autres pièces</strong> Il s’agit principalement les pièces avec beaucoup d’appareils électriques, puisque c’est souvent de ce lieu que proviennent les principaux départs de feux.</li>
+                </ul>
+                <p>Il est obligatoire d’installer une alarme incendie dans les ERP (Etablissements Recevant du Public).</p><br />
+                <p><strong>Un type d’alarme incendie selon le type de ERP</strong></p>
+                <p>Plusieurs facteurs doivent être pris en compte avant l’installation du système d’alarme incendie:</p>
+                <ul>
+                    <li>Tout d’abord, le type d’activité de l’établissement. Il existe une panoplie de catégories, dont les centres commerciaux, discothèques, les musées, les magasins, les bibliothèques, les maisons de retraite, etc…</li>
+                    <li>La taille de l’établissement</li>
+                    <li>Sa fréquentation</li>
+                    <li>La catégorie dans laquelle l’établissement a été placé par la commission de sécurité incendie.</li>
+                </ul>
 				<h2>CONTROLE D'ACCES</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670487840/acc%C3%A8s_aotb3e.png" alt="panel" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium molestiae fugit dolor aliquid nostrum atque iusto iure, libero magni deleniti deserunt, sapiente alias unde, ad id temporibus doloremque illo.</p>
 				<h2 id='conseil'> </h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
-				<h3>Aménagement dans un nouveau local</h3>
-				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, adipisci, esse tenetur quod eum veniam nulla odio autem, aut illum exercitationem quaerat doloremque aspernatur architecto doloribus natus? Accusamus, magni laboriosam.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum facere et totam ducimus quo, corrupti a vel nam, reiciendis omnis magni id tempore laboriosam ipsa. Possimus nisi voluptate dolore?</p>
+				<h3>A propos des détecteurs de fumées</h3>
+                <p>Le détecteur s’installe au plafond ou en haut des murs puisque la fumée stagne en général vers le haut d’une pièce. Il est fortement déconseillé de mettre le détecteur dans l’angle formé par le plafond et le mur, et bien parce que l’air n’y circule pas et la fumée ne se disperse pas dans cette zone. Il faut mettre le détecteur à 15 cm de l’angle.</p>
+				<p>Evitez d’installer un détecteur de fumée près d’un système d’aération, dans une salle de bain, ou une cuisine car cela risque de déclencher le détecteur sans raison, ou au contraire le détecteur peut ne pas se déclencher en cas de réel départ d’incendie.</p>
+                Le détecteur de fumée est utilisé comme alarme incendie dans tous les types de bâtiment. Il est de bon ton de le placer correctement, et d’en installer le nombre nécessaire dans chaque enceinte.
 				<h3>Les critères d'une installation aux normes</h3>
 				<h4>Sélectivité</h4>
 			</div>

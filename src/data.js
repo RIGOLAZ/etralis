@@ -52,7 +52,7 @@ export const offre=[
         id:8,
         homoHeadColor:"#FFFFFF",
         title:"AVIONIQUE",
-        desc:"Techiques d'assistance dans l'aviation, gestion des systèmes embarqués.",
+        desc:"Techiques d'assistance dans l'aéronautique, gestion des systèmes embarqués, étalonnage.",
         lien: "/avionique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1654005226/avionique_iaxkrc.jpg"
     },{
