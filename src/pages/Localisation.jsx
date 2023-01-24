@@ -12,7 +12,7 @@ const Localisation = () => {
         <main>
             <div id="marge"></div>
             <section className="section-blog section-blog-article">
-                <div id='ref'><a href="/">Accueil</a>/FAQ</div>
+                <div id='ref'><a href="/">Accueil</a>/Localisation</div>
                   <div className="inner">
                   <div className="container">
                     {/* <!-- article body  --> */}
