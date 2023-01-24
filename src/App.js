@@ -1,4 +1,5 @@
 import React from 'react';
+import CookieConsent from "react-cookie-consent";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/style.css';
 import Home from './pages/Home';
@@ -54,6 +55,14 @@ const App = () => {
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
+      <CookieConsent
+       location="bottom"
+       buttonText="Compris!!"
+       cookieName="myAwesomeCookieName2"
+       style={{ background: "#2B373B" }}
+       enableDeclineButton onDecline={() => {alert("nay!")}}
+       buttonStyle={{ color: "#4e3345", fontSize: "13px" }}
+       expires={182}>Ce site utilisee les Cookies. Lire les <a href='https://etralis.com/termes'>Termes</a> pour en savoir plus.</CookieConsent>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+	import React from 'react';
 import Comment from '../components/Comment';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -27,8 +27,8 @@ const Electricite = () => {
 					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
 				<h2>Electricité domestique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659882997/photo-1599709173687-64dcfed43386_wbtwll.jpg" alt="bedroom" />
-				<p>C'est l'électricité du réseau électrique cablée dans les logements de particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).
-					Ces endroits sont en majorité fréquentés par des adultes, aussi souvent par les enfants et des animaux domestiques. Ceci dit, les installations domestiques doivent respecter une certaine norme de sécurité pour éviter un incident ou pire. c'est pourquoi il est primordial que les installations soient faites par un professionnel du métier.</p><br />
+				<p>C'est l'électricité du réseau électrique cablée dans les logements des particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).
+					Ces endroits sont en majorité fréquentés par des adultes, aussi souvent par les enfants et des animaux domestiques. Ceci dit, les installations domestiques doivent respecter une certaine norme de sécurité afin d'éviter un incident ou pire, un accident. C'est pourquoi il est impératif, voire primordial que ces installations soient faites par des professionnels du métier.</p><br />
 				<h2>Electricité publique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1660467303/eclairage-public_f4jvq2.jpg" alt="lampadaire" />
 				<p>C'est l'électricité installée à l'intérieur et à l'extérieur des villes, ceci dans le but de sécurité et de confort des passants. Elle est composée entre autres de <strong>l'éclairage public</strong>, <strong>les feux de signalisation</strong>, etc...
 					Dans une ville, Il est non seulement important d'installer le matériel de qualité et aux normes accompagné des appareillages de protection adéquats pour qu'ils restent très longtemps au public sans se détériorer, mais aussi d'avoir à disposition des techniciens dans le domaine qui maîtrisent les circuits de type automatique et autonome en général souterrains. </p><br />
@@ -43,6 +43,7 @@ const Electricite = () => {
 						<li>la tomodensitométrie (scanner) ;</li>
 						<li>la tomographie par émission de positons (TEP).</li>
 					</ul>
+				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p>
 				</p><br />
 				<h2>Energie renouvelable</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium molestiae fugit dolor aliquid nostrum atque iusto iure, libero magni deleniti deserunt, sapiente alias unde, ad id temporibus doloremque illo.</p>

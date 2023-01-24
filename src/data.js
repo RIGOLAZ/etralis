@@ -10,7 +10,7 @@ export const offre=[
         id:2,
         homoHeadColor:"#FFFFFF",
         title:"INFORMATIQUE",
-        desc:"Technique d'assistance, développement d'application web et mobile, réseau informatique.",
+        desc:"Technique de support, développement d'application web et mobile, réseau informatique.",
         lien: "/informatique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670596669/Informatic_e4ns0a.jpg"
     },{
