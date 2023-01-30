@@ -667,9 +667,6 @@ section {
   border-radius:10px;
 }
 
-.mailling{
-  
-}
 #conseils{
   font-family:'Short Stack','Montserrat', sans-serif;
   font-size: 22px;
@@ -1632,11 +1629,31 @@ pre {
 
 /* Cookies2 end...................... */
 
-/* Cookies3 start...................... */
+/* ContactBanner...................... */
 
+blockquote{
+  line-height: 1.5rem;
+  position: relative;
+  font-weight: 500;
+  border: 2px solid rgba(94,94,94,.1);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 35px;
+  background-color: #e7e7e7;
+  text-align: center;
+}
 
+blockquote a{
+  font-family: "acme", Geneva, Verdana, sans-serif;
+}
 
-/* Cookies3 end...................... */
+blockquote #tel{
+  float: none;
+  padding:0;
+  border-radius:0;
+}
+
+/* ContactBanner...................... */
 
 /* media queries */
 

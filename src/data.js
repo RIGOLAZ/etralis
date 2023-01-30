@@ -17,7 +17,7 @@ export const offre=[
         id:3,
         homoHeadColor:"#FFFFFF",
         title:"ELECTROMECANIQUE",
-        desc:"Electroménager, ascenseur, mécanisme agricole, distribution automatique, etc...",
+        desc:"Electroménager, groupe électrogène, ascenseur, mécanisme agricole, distribution automatique, etc...",
         lien: "/electromecanique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659862487/%C3%A9lectrom%C3%A9canique_emdoxj.jpg"
     },{

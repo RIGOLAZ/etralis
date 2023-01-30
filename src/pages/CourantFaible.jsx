@@ -82,8 +82,6 @@ const courantFaible = () => {
                 <p>Le détecteur s’installe au plafond ou en haut des murs puisque la fumée stagne en général vers le haut d’une pièce. Il est fortement déconseillé de mettre le détecteur dans l’angle formé par le plafond et le mur, et bien parce que l’air n’y circule pas et la fumée ne se disperse pas dans cette zone. Il faut mettre le détecteur à 15 cm de l’angle.</p>
 				<p>Evitez d’installer un détecteur de fumée près d’un système d’aération, dans une salle de bain, ou une cuisine car cela risque de déclencher le détecteur sans raison, ou au contraire le détecteur peut ne pas se déclencher en cas de réel départ d’incendie.</p>
                 Le détecteur de fumée est utilisé comme alarme incendie dans tous les types de bâtiment. Il est de bon ton de le placer correctement, et d’en installer le nombre nécessaire dans chaque enceinte.
-				<h3>Les critères d'une installation aux normes</h3>
-				<h4>Sélectivité</h4>
 			</div>
 			</div>
 				</div>

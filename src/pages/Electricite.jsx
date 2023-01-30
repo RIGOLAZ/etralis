@@ -1,9 +1,10 @@
-	import React from 'react';
+import React from 'react';
 import Comment from '../components/Comment';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import { backward } from '../data';
+import ContactBanner from '../components/ContactBanner';
 
 const Electricite = () => {
     return (
@@ -32,6 +33,7 @@ const Electricite = () => {
 				<h2>Electricité publique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1660467303/eclairage-public_f4jvq2.jpg" alt="lampadaire" />
 				<p>C'est l'électricité installée à l'intérieur et à l'extérieur des villes, ceci dans le but de sécurité et de confort des passants. Elle est composée entre autres de <strong>l'éclairage public</strong>, <strong>les feux de signalisation</strong>, etc...
 					Dans une ville, Il est non seulement important d'installer le matériel de qualité et aux normes accompagné des appareillages de protection adéquats pour qu'ils restent très longtemps au public sans se détériorer, mais aussi d'avoir à disposition des techniciens dans le domaine qui maîtrisent les circuits de type automatique et autonome en général souterrains. </p><br />
+				<ContactBanner /><br />
 				<h2>Electronique biomédical</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659900642/Scanner_aexb8n.jpg" alt="Biomedical" />
 				<p>les différents appareils que nous fournissons, entretenons et dépannons sont:<br />
 					<ul>
@@ -43,8 +45,7 @@ const Electricite = () => {
 						<li>la tomodensitométrie (scanner) ;</li>
 						<li>la tomographie par émission de positons (TEP).</li>
 					</ul>
-				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p>
-				</p><br />
+				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p></p><br />
 				<h2>Energie renouvelable</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
 				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium molestiae fugit dolor aliquid nostrum atque iusto iure, libero magni deleniti deserunt, sapiente alias unde, ad id temporibus doloremque illo.</p>
 				<h2 id='conseil'></h2>
