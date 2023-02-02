@@ -35,36 +35,56 @@ const Electricite = () => {
 					Dans une ville, Il est non seulement important d'installer le matériel de qualité et aux normes accompagné des appareillages de protection adéquats pour qu'ils restent très longtemps au public sans se détériorer, mais aussi d'avoir à disposition des techniciens dans le domaine qui maîtrisent les circuits de type automatique et autonome en général souterrains. </p><br />
 				<ContactBanner /><br />
 				<h2>Electronique biomédical</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659900642/Scanner_aexb8n.jpg" alt="Biomedical" />
+				<p>Les appareils servant au diagnostic et au traitement des patients en sont constitués. Ce domaine est un mélange de médecine, de biologie, d'ingénierie et de physique.</p>
 				<p>les différents appareils que nous fournissons, entretenons et dépannons sont:<br />
-					<ul>
-						<li>l'échographie ;</li>
-						<li>la mammographie ;</li>
-						<li>la radiologie ;</li>
-						<li>l'ostéodensitométrie ;</li>
-						<li>l'imagerie par résonance magnétique (IRM) ;</li>
-						<li>la tomodensitométrie (scanner) ;</li>
-						<li>la tomographie par émission de positons (TEP).</li>
-					</ul>
+				<p> - l'échographie ;<br />
+				- la mammographie ;<br />
+				- la radiologie ;<br />
+				- l'ostéodensitométrie ;<br />
+				- l'imagerie par résonance magnétique (IRM) ;<br />
+				- la tomodensitométrie (scanner) ;<br />
+				- la tomographie par émission de positons (TEP).</p>
 				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p></p><br />
-				<h2>Energie renouvelable</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
-				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium molestiae fugit dolor aliquid nostrum atque iusto iure, libero magni deleniti deserunt, sapiente alias unde, ad id temporibus doloremque illo.</p>
+				<h2>Panneau solaire</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
+				<p>Un panneau solaire est une plaque qui capte l’énergie du soleil pour la transformer en électricité ou en chaleur. C'est une solution rentable et respectueuse de l’environnement.</p>
+				<h2 id='kindPanel'></h2>
+				<div id="marge"></div>
+				<h3>les types de panneaux.</h3>
+				<p>Il existe quatre types de panneaux solaires distingués par leurs caractéristiques et le type d'énergie produite: Le panneau thermique, le panneau photovoltaïque et le modèle hybride et aérovoltaïque.</p><br />
+				<p>
+					<ol>
+						<li><strong>le panneau solaire thermique</strong>: C'est un dispositif qui transforme l'énergie solaire en énergie calorifique. Il est utilisé pour avoir de l'eau chaude sanitaire, mais aussi pour alimenter le système de chauffage. Le chauffe-eau solaire est la solution idéale pour réaliser entre 40 et 50 % d’économie sur votre facture d’eau chaude.</li>
+						<p>NB: Sachez que contrairement au panneau photovoltaïque, il ne permet pas d'obtenir de l'électricité.</p><br />
+						<li><strong>le panneau photovoltaïque</strong>: C'est le plus utilisé. Il est composé de cellules photovoltaïques qui lui permettent de produire du courant électrique lorsqu'il est soumis aux rayons du soleil.
+							<p>Il en existe deux types:
+								<ul>
+									<li><strong>Le monocristallin</strong>: Constitué d’un seul cristal de silicium, il a un aspect plus sombre. Il est plus performant, et plus couteux que le panneau polycristallin.</li>
+									<li><strong>le polycristallin</strong>: Constitué de plusieurs cristaux de silicium, il est de couleur bleue. c'est le plus vendu à cause de sa simplicité de fabrication.</li>
+								</ul>
+							</p>
+						</li>
+						<li><p><strong>le panneau solaire hybride</strong>: C est un panneau qui combine deux fonctions: la production de l'électricité Photovoltaïque et la production d'eau chaude. il est encore appelé <strong>panneau PV/T air</strong>.</p></li><br />
+						<li><p><strong>Le panneu solaire aérovoltaïque</strong> par contre combine plutôt les fonctions de production de l'éctricité et la production de l'air chaud. Il est encore appelé <strong> panneau PV/T air</strong>.</p></li>
+
+					</ol>
+				</p>
 				<h2 id='conseil'></h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
-				<h3>Aménagement dans un nouveau local</h3>
-				<p>Lors de l'aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricité, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur.
-					Pour tout besoin ponctuel d'accompagnement, nous contacter directement au <a href="tel:677077030"><strong>677077030</strong></a>.<br/> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
-				<h3>Les critères d'une installation aux normes</h3>
+				<h3>Aménagement dans un nouveau local.</h3>
+				<p>Lors de l'aménagement dans une nouvelle maison, il faudrait tout d'abord demander une vérification minutieuse du compteur électrique présent sur le lieu par la société fournitrice de l'électricité, et dans le même ordre d'idée, entamer la procédure de demande de changement de nom pour que vous deveniez le nouveau propriétaire dudit compteur. Pour tout besoin ponctuel d'accompagnement, nous contacter directement au <a href="tel:677077030"><strong>677077030</strong></a>.<br /> Ensuite, il est important, voire primordial de faire passer au peigne fin tout le circuit électrique par un professionnel du métier. Les circuits doivent non seulement respecter une certaine norme, mais aussi être en bon état car "prévenir vaut mieux que guerrir".</p>
+				<h3>Les critères d'une installation électrique aux normes.</h3>
 				<h4>Sélectivité</h4>
 				<p>Une panne électrique survenue dans un local précis d'un bâtiment ne devrait pas en affecter un autre de près ou de loin pour quelque raison que ce soit. Il est donc besoin de faire *<strong>une sélectivité</strong>* afin d'éviter tout désagrément de ce type.</p>
 				<h4>Équilibrage de phases</h4>
-				<p>Un déséquilibre de votre réseau électrique interne pourrait engendrer la mauvaise qualité de l'électricité chez vous comme chez vos voisins, et donc peut techniquement générer un mauvais facteur de puissance.
-					Il faut noter que la société fournitrice de l'électricité pénalise tous ses clients ayant un mauvais facteur de puissance. La répercution est constatée dans les factures.</p>
+				<p>Un déséquilibre de votre réseau électrique interne pourrait engendrer la mauvaise qualité de l'électricité chez vous comme chez vos voisins, et donc peut techniquement générer un mauvais facteur de puissance. Il faut noter que la société fournitrice de l'électricité pénalise tous ses clients ayant un mauvais facteur de puissance. La répercution est constatée dans les factures.</p>
 				<h4>Protection des personnes</h4>
 				<p>Toute construction devrait avoir des appareillages dédiés à la protection des personnes qui utilisent les différents appareils à carcasse métallique présents et accessibles tels que refrigérateurs, fer à repasser, cuisinière électrique, etc... d'où l'importance d'installer le dispositif de terre accompagné des disjoncteurs spécifiques.</p>
 				<h4>Circuits repérés et plan de la maison</h4>
-				<p>Un tableau électrique fait par un professionnel du métier devrait contenir des stickers permettant d'identifier l'appareillage de protection qui commande tel appareil ou tel local, ceci appuyé par un plan électrique de la maison. Cette pratique permet d'anticiper dans les besoins futurs et aide quiconque, technicien comme simple usager, à vite se repérer lors d'une intervention quelconque. <br />
-					Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus <strong>"Chauffe eau chambre parents"</strong>, n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
+				<p>Un tableau électrique fait par un professionnel du métier devrait contenir des stickers permettant d'identifier l'appareillage de protection qui commande tel appareil ou tel local, ceci appuyé par un plan électrique de la maison. Cette pratique permet d'anticiper dans les besoins futurs et aide quiconque, technicien comme simple usager, à vite se repérer lors d'une intervention quelconque. <br />Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus <strong>"Chauffe eau chambre parents"</strong>, n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
+				<h3>Installation des systèmes solaires.</h3>
+				<p>L'installation d'un système solaire doit être impérativement faite par des techniciens aguerris qui peuvent facilement discerner les types de panneaux. En fait, tous les panneaux solaires comme expliqués plus <a id='solar' href="#kindPanel">haut</a> n'ont pas la même fonction et doivent s'utiliser dans les domaines bien précis.</p>
+				<p>Le technicien pourra donc, après analyse minutueuse vous établir un devis précis et concis tout en vous donnant les conseils sur tel ou tel choix de (battérie de stockage, l'onduleur adéquat, le type de matériel de connexion à utiliser, etc...) </p>
 			</div>
 			</div>
 				</div>

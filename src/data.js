@@ -3,7 +3,7 @@ export const offre=[
         id:1,
         homoHeadColor:"#FFFFFF",
         title:"ELECTRICITE",
-        desc:"Electricité domestique, publique, Electronique biomédical. Energie renouvelable.",
+        desc:"Electricité domestique, publique, Electronique biomédical. panneau solaire.",
         lien: "/electricite",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg"
     },{
@@ -17,7 +17,7 @@ export const offre=[
         id:3,
         homoHeadColor:"#FFFFFF",
         title:"ELECTROMECANIQUE",
-        desc:"Electroménager, groupe électrogène, ascenseur, mécanisme agricole, distribution automatique, etc...",
+        desc:"Electroménager, groupe électrogène, ascenseur, distributeur automatique, etc...",
         lien: "/electromecanique",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659862487/%C3%A9lectrom%C3%A9canique_emdoxj.jpg"
     },{
@@ -30,8 +30,8 @@ export const offre=[
     },{
         id:5,
         homoHeadColor:"#FFFFFF",
-        title:"PLOMBERIE DOMESTIQUE ET INDUSTRIELLE",
-        desc:"Tuyauterie domestique et industrielle, sanitaire, mécanique des fluides.",
+        title:"PLOMBERIE",
+        desc:"Plomberie commerciale, résidentielle et industrielle.",
         lien: "/plomberie",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670596140/plomberie_uva9p4.jpg"
     },{

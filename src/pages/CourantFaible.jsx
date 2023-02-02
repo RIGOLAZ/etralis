@@ -30,14 +30,14 @@ const courantFaible = () => {
 				<p>Dans le but de surveiller les lieux, des biens, personnes … des particuliers font de plus en plus recours aux systèmes de vidéosurveillance. Il existe deux types de systèmes de vidéosurveillance: analogique et numérique. Dans ce document, nous présenterons de manière détaillée ses différents systèmes.</p><br />
                 <p id='equip'>Equipements de gestion</p>
                 <p>La gestion d’un système de vidéosurveillance se fait par plusieurs équipements (<strong><i>DVR, NVR, serveur, logiciels</i></strong> ). Toute fois le choix de l’équipement de gestion dépend des besoins de l’utilisateur.</p>
-                <p><strong>DVR (Digital Video Recorder)</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670414846/DVR_i5lkws.jpg" alt='dvr'/></p>
+                <p><strong>DVR (Digital Video Recorder)</strong></p>
                 <p>Généralement utilisé dans les systèmes de vidéosurveillance analogiques, il a plusieurs fonctions:</p>
                 <ul>
                     <li>Multiplexage du flux vidéo : Toutes les caméras du système se connectent au DVR grâce aux ports BNC femelles généralement situées à l’arrière.</li>
                     <li>Enregistrement : les données sont enregistrées dans un disque dur connecté sur la carte mère du DVR</li>
                     <li>Distribution de l’image…</li>
                 </ul>
-                <p><strong>NVR (Network Video Recorder)</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670414841/NVR_r6sbxj.jpg" alt="nvr" /></p>
+                <p><strong>NVR (Network Video Recorder)</strong></p>
                 <p>Est un enregistreur utilisé dans les systèmes de vidéosurveillance <strong>IP</strong>. Il réalise les mêmes fonctions qu’un DVR mais avec un résultat de qualité supérieure et possède des ports Ethernets.</p><br />
                 <p><strong>LOGICIELS</strong></p>
                 <p>Ils sont utilisés pour le contrôle à distance et sont compatibles avec l’enregistreur utilise (Marque) et types du système. On peut citer:</p>
@@ -72,10 +72,12 @@ const courantFaible = () => {
                     <li>La taille de l’établissement</li>
                     <li>Sa fréquentation</li>
                     <li>La catégorie dans laquelle l’établissement a été placé par la commission de sécurité incendie.</li>
-                </ul>
+                </ul><br />
 				<h2>CONTROLE D'ACCES</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670487840/acc%C3%A8s_aotb3e.png" alt="panel" />
-				<p>...Cette partie est en cours de développement pour des explications optimales par nos professionnels du métier... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusantium molestiae fugit dolor aliquid nostrum atque iusto iure, libero magni deleniti deserunt, sapiente alias unde, ad id temporibus doloremque illo.</p>
-				<h2 id='conseil'> </h2>
+				<p>Le contrôle d'accès désigne les différentes solutions techniques qui permettent de sécuriser et gérer les accès physiques à un bâtiment ou un site, ou les accès logiques à un système d'information. On distingue ainsi le contrôle d'accès physique et le contrôle d'accès logique.</p>
+				<p><strong>Le contrôle d'accès physique</strong> est un dispositif ou appareillage permettant un accès contrôlé à un lieu, un bâtiment, un local, une machine ou des équipements spécifiques (Accès d'une salle de banque via le badge, empreinte digitale et reconnaissance faciale).</p>
+                <p><strong>Le contrôle d'accès logique </strong>est un système de contrôle d'accès à un système d'information. Il est souvent couplé avec le contrôle d’accès physique et permet de restreindre le nombre d’utilisateurs du système d’information.</p>
+                <h2 id='conseil'> </h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
 				<h3>A propos des détecteurs de fumées</h3>
