@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { backward } from '../data';
 import Sidebar from '../components/Sidebar';
+import ContactBanner from '../components/ContactBanner';
 
 const courantFaible = () => {
     return (
@@ -52,6 +53,7 @@ const courantFaible = () => {
                 <p><strong>CAMERA DÔME</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670430087/Camera_d%C3%B4me_uxt5nv.png" alt="dôme" /></p>
                 <p> Elle peut être placée à l’intérieur comme à l’extérieur, peut être fixer sur le plafond ou le mur et possède plusieurs modelés : Caméra PTZ (Pan tilt Zoom) motorisée et non motorisée : est une caméra capable d’être pilotée à distance (modification de l’angle de vison), et de zoomer par elle-même</p><br />
                 <p><strong>CAMERA BULLET</strong><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1670595298/Camera_bullet_ygwgfx.png" alt="bullet" /></p>
+                <ContactBanner />
 				<p>Elle possède une tige et est utilisée pour la surveillance des routes, l’extérieur des maisons.</p><br />
                 <h2>DOMOTIQUE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659879626/Domo-mini_xeqf4i.jpg" alt="domo" />
                 <p>Le mot “<strong>domotique</strong>” vient de “domus” qui signifie “<strong>domicile</strong>“,&nbsp;et du suffixe “tique” qui fait référence à la<span>&nbsp;</span><strong>technique?</strong> D'après &nbsp;<a href="https://fr.wikipedia.org/wiki/Domotique" target="_blank" rel="noopener noreferrer">Wikipedia</a><span>&nbsp;</span>:</p>

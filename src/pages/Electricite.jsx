@@ -67,6 +67,7 @@ const Electricite = () => {
 						<li><p><strong>Le panneu solaire aérovoltaïque</strong> par contre combine plutôt les fonctions de production de l'éctricité et la production de l'air chaud. Il est encore appelé <strong> panneau PV/T air</strong>.</p></li>
 
 					</ol>
+					<ContactBanner />
 				</p>
 				<h2 id='conseil'></h2>
 				<div id="marge"></div>
