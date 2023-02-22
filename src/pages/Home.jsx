@@ -25,7 +25,7 @@ const Home = () => {
             <Rubrique/>
             <Comment />
         </main>
-            <Footer />
+        <Footer />
         </>
     );
 };

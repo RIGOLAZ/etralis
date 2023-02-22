@@ -46,7 +46,7 @@ const Electricite = () => {
 				- la tomographie par émission de positons (TEP).</p>
 				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p></p><br />
 				<h2>Panneau solaire</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
-				<p>Un panneau solaire est une plaque qui capte l’énergie du soleil pour la transformer en électricité ou en chaleur. C'est une solution rentable et respectueuse de l’environnement.</p>
+				<p>Un panneau solaire est une plaque qui capte l’énergie du soleil pour la transformer en électricité ou en chaleur. C'est une solution rentable et respectueuse de l’environnement. Elle permet aussi de faire beaucoup d'économie en énergie courante.</p>
 				<h2 id='kindPanel'></h2>
 				<div id="marge"></div>
 				<h3>les types de panneaux.</h3>
