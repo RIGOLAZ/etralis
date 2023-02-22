@@ -3,7 +3,7 @@ export const offre=[
         id:1,
         homoHeadColor:"#FFFFFF",
         title:"ELECTRICITE",
-        desc:"Electricité domestique, publique, Electronique biomédical. panneau solaire.",
+        desc:"Electricité domestique, publique, Electronique biomédical, panneau solaire.",
         lien: "/electricite",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg"
     },{
