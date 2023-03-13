@@ -7,7 +7,7 @@ const Header = () => {
         <div className="top-menu">
             <div id="trademark">
                 <Link to='/accueil'>
-                    <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1668876534/etralis-button_iqara4.svg" alt="strobe" />
+                    <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1678701647/Button-ETRALIS_hcxo2a.svg" alt="strobe" />
                 <span style={{color:"white", fontWeight:"bold", paddingLeft:"10px", position:"absolute", top:"6px"}}>ETRALIS</span>
                 </Link>
             </div>

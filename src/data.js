@@ -24,7 +24,7 @@ export const offre=[
         id:4,
         homoHeadColor:"#FFFFFF",
         title:"FROID ET CLIMATISATION",
-        desc:"Techniques d'assistance des climatiseurs, centrales thermiques, chambre froide, etc...",
+        desc:"Techniques d'assistance en climatisation, centrales thermiques, chambre froide, etc...",
         lien: "/froid-et-climatisation",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659816117/photo-1659164839265-9bb2f08aacb1_xjvjwv.jpg"
     },{
