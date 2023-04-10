@@ -24,6 +24,10 @@ const Sidebar = () => {
                 </Link>
             </li>
             <li>
+                <Link to="https://ecomm-f0ae6.web.app/">
+                <span>Go to eCommerce</span></Link>
+            </li>
+            <li>
                 <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
                     <span>Contact Whatsapp</span>
                 </Link>
@@ -35,10 +39,6 @@ const Sidebar = () => {
             <li>
                 <Link to="/a-propos">
                 <span>Qui sommes-nous!</span></Link>
-            </li>
-            <li>
-                <Link to="/localisation">
-                <span>Localisation</span></Link>
             </li>
             <li className="small">
                 <Link to="#" target="_blank" title="Facebook" className="socials-item">

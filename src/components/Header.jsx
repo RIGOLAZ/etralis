@@ -11,6 +11,9 @@ const Header = () => {
                 <span style={{color:"white", fontWeight:"bold", paddingLeft:"10px", position:"absolute", top:"6px"}}>ETRALIS</span>
                 </Link>
             </div>
+            <button className="custom-btn btn-11">
+                <a href="https://ecomm-f0ae6.web.app/">Go <span id='span1'>to eCommerce</span><span id='span2'>Shop</span><span id='span3'><img src="https://firebasestorage.googleapis.com/v0/b/etralis.appspot.com/o/tofs%2Fcart.svg?alt=media&token=ef30e85c-5d07-4ef3-b2d0-d688dcd43d27" alt="cart" /></span></a>
+            </button>
             <nav>
                 <NavLink to='/accueil' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Accueil </NavLink>
                 <NavLink to='/services' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Services </NavLink>

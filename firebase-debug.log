@@ -1,0 +1,96 @@
+[debug] [2023-03-13T11:47:28.910Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T11:47:28.913Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\etralis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-13T11:47:28.914Z] CLI Version:   11.23.1
+[debug] [2023-03-13T11:47:28.915Z] Platform:      win32
+[debug] [2023-03-13T11:47:28.915Z] Node Version:  v18.12.1
+[debug] [2023-03-13T11:47:28.917Z] Time:          Mon Mar 13 2023 12:47:28 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2023-03-13T11:47:28.918Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-13T11:47:28.927Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-13T11:47:29.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-13T11:47:29.099Z] > authorizing via signed-in user (rigolaz@gmail.com)
+[debug] [2023-03-13T11:47:29.100Z] [iam] checking project etralis for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-13T11:47:29.101Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/etralis:testIamPermissions [none]
+[debug] [2023-03-13T11:47:29.101Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/etralis:testIamPermissions x-goog-quota-user=projects/etralis
+[debug] [2023-03-13T11:47:29.102Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etralis:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-13T11:47:30.572Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/etralis:testIamPermissions 200
+[debug] [2023-03-13T11:47:30.574Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etralis:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-13T11:47:30.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/etralis [none]
+[debug] [2023-03-13T11:47:31.689Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/etralis 200
+[debug] [2023-03-13T11:47:31.689Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/etralis {"projectId":"etralis","projectNumber":"870023915404","displayName":"etralis","name":"projects/etralis","resources":{"hostingSite":"etralis","storageBucket":"etralis.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_b428112a-e657-43e0-9fbd-70fbe53ae51e"}
+[info] 
+[info] === Deploying to 'etralis'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-03-13T11:47:31.707Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions [none]
+[debug] [2023-03-13T11:47:31.707Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-03-13T11:47:33.425Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions 200
+[debug] [2023-03-13T11:47:33.425Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions {"name":"projects/870023915404/sites/etralis/versions/c42102ff5c004069","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[etralis]: beginning deploy... 
+[info] i  hosting[etralis]: found 11 files in build 
+[debug] [2023-03-13T11:47:33.464Z] [hosting] uploading with 200 concurrency
+[debug] [2023-03-13T11:47:33.978Z] [hosting] hash cache [YnVpbGQ] stored for 11 files
+[debug] [2023-03-13T11:47:33.978Z] [hosting][hash queue][FINAL] {"max":494,"min":3,"avg":61.27272727272727,"active":0,"complete":11,"success":11,"errored":0,"retried":0,"total":11,"elapsed":503}
+[debug] [2023-03-13T11:47:33.979Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/870023915404/sites/etralis/versions/c42102ff5c004069:populateFiles [none]
+[debug] [2023-03-13T11:47:33.979Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/870023915404/sites/etralis/versions/c42102ff5c004069:populateFiles {"files":{"/manifest.json":"433e82b7349af23fed2cf3788f7266e811b1d05d88248554f15d1bd6329b3a65","/robots.txt":"b2090cf9761ef60aa06e4fab97679bd43dfa5e5df073701ead5879d7c68f1ec5","/asset-manifest.json":"4d3b2bb0dc9ca248b068b8c27eed0bfac0e200275a75a3d73df236ec092a7919","/index.html":"c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f","/static/css/main.a90efcdf.css":"234bf3caa0c655f6d19c1af453b0a9706ca1a4446e0d2e95aa60bfe5defdaad1","/static/js/787.c70f3b3c.chunk.js.map":"33e1fa1c3b46a1d9095da2d266c356709970b0c2c85d5402c5fc61ec2efd9755","/static/js/787.c70f3b3c.chunk.js":"ed26e2ac84f61f7c3387df739c24c892ba2883a2ab12688ac2e6ebb5dcddf225","/static/js/main.8e4daa61.js.LICENSE.txt":"ab3df535bc17f087e45392c5e07b6663b806cea4f1901d79c312d7b3541a0ac6","/static/css/main.a90efcdf.css.map":"4f8c467788be785b20e0e18c1926f404c5343bd29dc17689b1315eca47d4b8a5","/static/js/main.8e4daa61.js":"53f40fc073c87debcf97dfbd8974d6751cb1e1b6015f610c1e1def751001384f","/static/js/main.8e4daa61.js.map":"5fdf344d6d903ff554b5a65bf408d483d295caa3188b079afe44b95f2fad39c1"}}
+[debug] [2023-03-13T11:47:35.329Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/870023915404/sites/etralis/versions/c42102ff5c004069:populateFiles 200
+[debug] [2023-03-13T11:47:35.329Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/870023915404/sites/etralis/versions/c42102ff5c004069:populateFiles {"uploadRequiredHashes":["c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files"}
+[debug] [2023-03-13T11:47:35.330Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f [none]
+[debug] [2023-03-13T11:47:35.331Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f [stream]
+[debug] [2023-03-13T11:47:35.333Z] [hosting][populate queue][FINAL] {"max":1354,"min":1354,"avg":1354,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1357}
+[debug] [2023-03-13T11:47:35.333Z] [hosting] uploads queued: 1
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-03-13T11:47:50.278Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-03-13T11:47:56.931Z] [uploadQueue] Retrying task c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f
+[debug] [2023-03-13T11:47:56.933Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f [none]
+[debug] [2023-03-13T11:47:56.933Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f [stream]
+[debug] [2023-03-13T11:47:59.732Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f 200
+[debug] [2023-03-13T11:47:59.732Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/etralis/versions/c42102ff5c004069/files/c565e7f4cf46104b7a8b3a7546902b7fdbdf87efdbbdab3a6320611169937a1f [stream]
+[debug] [2023-03-13T11:47:59.733Z] [hosting][upload queue][FINAL] {"max":2801,"min":2801,"avg":2801,"active":0,"complete":1,"success":1,"errored":0,"retried":1,"total":1,"elapsed":24403}
+[info] +  hosting[etralis]: file upload complete 
+[debug] [2023-03-13T11:47:59.735Z] [hosting] deploy completed after 26304ms
+[debug] [2023-03-13T11:47:59.743Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "etralis"
+    },
+    "version": "projects/870023915404/sites/etralis/versions/c42102ff5c004069"
+  }
+]
+[info] i  hosting[etralis]: finalizing version... 
+[debug] [2023-03-13T11:47:59.749Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions/c42102ff5c004069 updateMask=status%2Cconfig
+[debug] [2023-03-13T11:47:59.749Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions/c42102ff5c004069 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-03-13T11:48:01.140Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions/c42102ff5c004069 200
+[debug] [2023-03-13T11:48:01.140Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/versions/c42102ff5c004069 {"name":"projects/870023915404/sites/etralis/versions/c42102ff5c004069","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-03-13T11:47:34.341186Z","createUser":{"email":"rigolaz@gmail.com"},"finalizeTime":"2023-03-13T11:48:02.343872Z","finalizeUser":{"email":"rigolaz@gmail.com"}}
+[debug] [2023-03-13T11:48:01.141Z] [hosting] finalized version for etralis:[object Object]
+[info] +  hosting[etralis]: version finalized 
+[info] i  hosting[etralis]: releasing new version... 
+[debug] [2023-03-13T11:48:01.143Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/channels/live/releases versionName=projects%2F870023915404%2Fsites%2Fetralis%2Fversions%2Fc42102ff5c004069
+[debug] [2023-03-13T11:48:01.144Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/channels/live/releases {}
+[debug] [2023-03-13T11:48:02.544Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/channels/live/releases 200
+[debug] [2023-03-13T11:48:02.544Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/etralis/channels/live/releases {"name":"projects/870023915404/sites/etralis/channels/live/releases/1678708083156000","version":{"name":"projects/870023915404/sites/etralis/versions/c42102ff5c004069","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-03-13T11:47:34.341186Z","createUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"},"finalizeTime":"2023-03-13T11:48:02.343872Z","finalizeUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"}},"type":"DEPLOY","releaseTime":"2023-03-13T11:48:03.156Z","releaseUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"}}
+[debug] [2023-03-13T11:48:02.545Z] [hosting] release: {"name":"projects/870023915404/sites/etralis/channels/live/releases/1678708083156000","version":{"name":"projects/870023915404/sites/etralis/versions/c42102ff5c004069","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-03-13T11:47:34.341186Z","createUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"},"finalizeTime":"2023-03-13T11:48:02.343872Z","finalizeUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"}},"type":"DEPLOY","releaseTime":"2023-03-13T11:48:03.156Z","releaseUser":{"email":"rigolaz@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxZ7TjJwvhrCK8WjS1Sc4YduTLuma7pAKhBMOL1J"}}
+[info] +  hosting[etralis]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/etralis/overview
+[info] Hosting URL: https://etralis.web.app
+[debug] [2023-03-13T11:48:33.669Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\etralis\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

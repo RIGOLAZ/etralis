@@ -37,7 +37,6 @@
 body {
     font-family:'segoe print',"acme", Geneva, Verdana, sans-serif;
     /* font-size: 16px; */
-    color: #c02b2b;
 }
 /*sidebar.................*/
 
@@ -193,13 +192,89 @@ strong {
 #trademark img{
     position: relative;
     width: 32px;
-    top: 5px;
+    top: 9px;
 }
 
 #trademark span{
     visibility: visible;
     bottom: 2px;
 }
+
+/* Ecomm redirect button start*/
+
+.custom-btn {
+  position: absolute;
+  bottom:3px;
+  right:235px;
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 11 */
+.btn-11 {
+  border: none;
+  /* background: rgb(0, 182, 70); */
+  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+
+#span1{
+  display: inline;
+}
+
+#span2{
+  display: none;
+}
+#span3{
+  display: none;
+}
+
+.btn-11 a{
+  color: #FFFFFF;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #FFFFFF;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+@keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+/* Ecomm redirect button end */
+
 #marge {
     position: static;
     height: 56px;
@@ -358,6 +433,7 @@ nav a:hover:before {
     text-align: center;
     margin-bottom: 11px;
 }
+
 /*Solo head end................*/
 
 .branding{
@@ -1722,16 +1798,33 @@ blockquote #tel{
         border-radius: 10px 10px 10px 10px;
     }
     .imgOnboard {
-        display: none;
+      display: none;
     }
     caption {
-        font-size: 20px;
+      font-size: 20px;
     }
-}
+    #span1{
+      display: none;
+    }
 
-@media screen and (max-width:675px) {
+    #span2{
+      display: inline;
+    }
+    #span3{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:675px) {
+    .custom-btn {
+      position: absolute;
+      /* top:3px; */
+      right:40px;
+      width: 120px;
+      height: 30px;
+    }
     nav{
-        visibility: hidden;
+      visibility: hidden;
     }
 
     label #btn,
@@ -1740,21 +1833,21 @@ blockquote #tel{
         z-index: 10;
     }
     #trademark{
-        left: 60px;
+      left: 60px;
     }
     #trademark span{
-        visibility: hidden;
+      visibility: hidden;
     }
     .apearance1{
       display: none;
-
+      
     }
     .apearance2{
       display: inline-block;
     }
-
-}
-
+    
+  }
+  
 @media screen and (max-width:585px){
     .welcome{
         visibility: hidden;
@@ -1792,6 +1885,22 @@ blockquote #tel{
 
     nav {
         width: 100%;
+    }
+    .custom-btn {
+      position: absolute;
+      top:14px;
+      right:50px;
+      width: 75px;
+      height: 30px;
+    }
+    #span2{
+      display: none;
+    }
+
+    #span3{
+      display: inline;
+      position: relative;
+      top:2px;
     }
 
     #gisto-header img {
