@@ -24,8 +24,8 @@ const Sidebar = () => {
                 </Link>
             </li>
             <li>
-                <Link to="https://ecomm-f0ae6.web.app/">
-                <span>Go to eCommerce</span></Link>
+                <a href="https://ecomm-f0ae6.web.app/">
+                <span>Go to eCommerce</span></a>
             </li>
             <li>
                 <Link to="//wa.me/237677077030" target={"_blank"} rel="noopener noreffer">
