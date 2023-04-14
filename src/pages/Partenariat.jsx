@@ -15,9 +15,55 @@ const Partenariat = () => {
 				<div className="inner">
             <div className="container">
 			<div className="body">
-                <h1>Partenariat</h1>
-				<p><a href="https://rigolaz-c5df3.web.app/" target="_blank">https://rigolaz.com</a></p>
-                <p><a href="https://mediplus.cm" target="_blank">https://mediplus.cm</a></p>
+                <h1>Nos Partenaires</h1>
+                <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681487119/Camtrack_nbvvji.png" href="img1"/>
+                        <div class="details">
+                            <div class="content">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681487893/Logo-MEDIPLUS_y3cgrd.svg" href="img2"/>
+                        <div class="details">
+                            <div class="content">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="slide">
+                            <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681488368/Rigolaz_zxk0gy.svg" href="img3"/>
+                            <div class="details">
+                                <div class="content">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                        <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681487119/Camtrack_nbvvji.png" href="img1"/>
+                        <div class="details">
+                            <div class="content">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681487893/Logo-MEDIPLUS_y3cgrd.svg" href="img2"/>
+                        <div class="details">
+                            <div class="content">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="slide">
+                            <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1681488368/Rigolaz_zxk0gy.svg" href="img3"/>
+                            <div class="details">
+                                <div class="content">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                    </div>
+                </div>
+                </div>
 			</div>
 			</div>
 				</div>
