@@ -23,6 +23,7 @@ import Termes from './pages/Termes';
 import Confidentialite from './pages/Confidentialite';
 import PageNotFound from './pages/PageNotFound';
 import AboutUs from './pages/About-us';
+import Tracking from './pages/Tracking';
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
           <Route path='/electricite' element={<Electricite />} />
           <Route path='/avionique' element={<Avionique />} />
           <Route path='/informatique' element={<Informatique />} />
+          <Route path='/tracking' element={<Tracking />} />
           <Route path='/electromecanique' element={<Electromecanique/>} />
           <Route path='/froid-et-climatisation' element={<FroidClimatisation />} />
           <Route path='/plomberie' element={<Plomberie />} />
@@ -55,14 +57,6 @@ const App = () => {
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
-      {/* <CookieConsent
-       location="bottom"
-       buttonText="Compris!!"
-       cookieName="myAwesomeCookieName2"
-       style={{ background: "#2B373B" }}
-       enableDeclineButton onDecline={() => {alert("nay!")}}
-       buttonStyle={{ color: "#4e3345", fontSize: "13px" }}
-       expires={182}>Ce site utilisee les Cookies. Lire les <a href='https://etralis.com/termes'>Termes</a> pour en savoir plus.</CookieConsent> */}
     </>
   );
 };

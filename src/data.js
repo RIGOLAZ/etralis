@@ -51,10 +51,10 @@ export const offre=[
     },{
         id:8,
         homoHeadColor:"#FFFFFF",
-        title:"AVIONIQUE",
-        desc:"Techiques d'assistance dans l'aéronautique, gestion des systèmes embarqués, étalonnage.",
-        lien: "/avionique",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1654005226/avionique_iaxkrc.jpg"
+        title:"TRACKING ET SOLUTIONS EMBARQUEES",
+        desc:"Véhicules et objets connectés, solutions embarquées",
+        lien: "/tracking",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1681460692/Traking_xnjydd.jpg"
     },{
         id:9,
         homoHeadColor:"#FFFFFF",
@@ -62,7 +62,14 @@ export const offre=[
         desc:"Etude, Conception, Réalisation, Contrôle des projets de construction",
         lien: "/btp",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
-    }
+    }/* ,{
+        id:10,
+        homoHeadColor:"#FFFFFF",
+        title:"AVIONIQUE",
+        desc:"Techiques d'assistance dans l'aéronautique, gestion des systèmes embarqués, étalonnage.",
+        lien: "/avionique",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1654005226/avionique_iaxkrc.jpg"
+    } */
 ]
 
 export const backward =()=> {
