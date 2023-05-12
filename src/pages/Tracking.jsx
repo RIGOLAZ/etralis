@@ -25,7 +25,7 @@ const Tracking = () => {
             <div className="container">
 			{/* <!-- article body  --> */}
 			<div className="body">
-				<p><span id='lettrine'>L</span>e Tracking, terme employé en cas de pandémie pour le traçage numérique des populations, ou en abrégé traçage.</p><br />
+				<p><span id='lettrine'>L</span>e Tracking, terme employé en cas de pandémie pour le traçage numérique des populations, ou en abrégé traçage. Ce système est utilisé par plusieurs personnes pour la géolocalisation de leurs véhicules, motos et engins lourd</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
 				<h2>Tracking</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="bedroom" />
 				<p>En cours de développement par nos ingenieurs... <br /><br />

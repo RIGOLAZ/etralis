@@ -47,7 +47,7 @@ export const offre=[
         title:"CHAUDRONNERIE",
         desc:"Soudure aérienne, souterraine, sur plateforme et milieu aquatique.",
         lien: "/chaudronnerie",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659877478/Chaudronnier_edl6or.jpg"
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/c_scale,w_1000/v1681717518/Chaudronnier_edl6or.jpg"
     },{
         id:8,
         homoHeadColor:"#FFFFFF",

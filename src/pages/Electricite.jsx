@@ -58,8 +58,8 @@ const Electricite = () => {
 						<li><strong>le panneau photovoltaïque</strong>: C'est le plus utilisé. Il est composé de cellules photovoltaïques qui lui permettent de produire du courant électrique lorsqu'il est soumis aux rayons du soleil.
 							<p>Il en existe deux types:
 								<ul>
-									<li><strong>Le monocristallin</strong>: Constitué d’un seul cristal de silicium, il a un aspect plus sombre. Il est plus performant, et plus couteux que le panneau polycristallin.</li>
-									<li><strong>le polycristallin</strong>: Constitué de plusieurs cristaux de silicium, il est de couleur bleue. c'est le plus vendu à cause de sa simplicité de fabrication.</li>
+									<li><strong>Le monocristallin</strong>: Constitué d’un seul cristal de silicium et est de couleur gris noir métallique. Il a un aspect plus sombre. Il est plus performant. Son rendement se trouve entre 16 et 24 %. Il est plus couteux que le panneau polycristallin.</li>
+									<li><strong>le polycristallin</strong>: Constitué de plusieurs cristaux de silicium, il est de couleur bleue non uniforme. Son rendement ne dépasse pas 18%. c'est le plus vendu à cause de sa simplicité de fabrication.</li>
 								</ul>
 							</p>
 						</li>
@@ -85,7 +85,8 @@ const Electricite = () => {
 				<p>Un tableau électrique fait par un professionnel du métier devrait contenir des stickers permettant d'identifier l'appareillage de protection qui commande tel appareil ou tel local, ceci appuyé par un plan électrique de la maison. Cette pratique permet d'anticiper dans les besoins futurs et aide quiconque, technicien comme simple usager, à vite se repérer lors d'une intervention quelconque. <br />Tenez par exemple: Si un disjoncteur déclenche et qu'il est au préalable marqué dessus <strong>"Chauffe eau chambre parents"</strong>, n'importe qui repérerait directement la source du problème et le dépannage serait donc plus aisé.</p>
 				<h3>Installation des systèmes solaires.</h3>
 				<p>L'installation d'un système solaire doit être impérativement faite par des techniciens aguerris qui peuvent facilement discerner les types de panneaux. En fait, tous les panneaux solaires comme expliqués plus <a id='solar' href="#kindPanel">haut</a> n'ont pas la même fonction et doivent s'utiliser dans les domaines bien précis.</p>
-				<p>Le technicien pourra donc, après analyse minutueuse vous établir un devis précis et concis tout en vous donnant les conseils sur tel ou tel choix de (battérie de stockage, l'onduleur adéquat, le type de matériel de connexion à utiliser, etc...) </p>
+				<p>Le technicien pourra donc, après analyse minutueuse vous établir un devis précis et concis tout en vous donnant les conseils sur tel ou tel choix de (battérie de stockage, onduleur adéquat, type d'appareillage de connexion à utiliser, etc...) </p>
+				<p>Les panneaux doivent fonctionner dans les conditions favorables, cad nous devons être dans une zone où l'ensolleillement est de 1000W/m², où nous avons une température de 25°, et dont le coefficient air-masse est 1,5.</p>
 			</div>
 			</div>
 				</div>
