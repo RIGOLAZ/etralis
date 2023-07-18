@@ -1,5 +1,4 @@
 import React from 'react';
-// import CookieConsent from "react-cookie-consent";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/style.css';
 import Home from './pages/Home';
@@ -15,15 +14,16 @@ import CourantFaible from './pages/CourantFaible';
 import Plomberie from './pages/Plomberie';
 import Chaudronnerie from './pages/Chaudronnerie';
 import BtpUrbanisme from './pages/BtpUrbanisme';
+import Enseigne from './pages/Enseigne';
 import OffreEmploi from './pages/OffreEmploi';
 import Faq from './pages/Faq';
 import Localisation from './pages/Localisation';
 import TrxPgr from './components/TrxPgr';
 import Termes from './pages/Termes';
 import Confidentialite from './pages/Confidentialite';
-import PageNotFound from './pages/PageNotFound';
 import AboutUs from './pages/About-us';
 import Tracking from './pages/Tracking';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => {
   return (
@@ -47,6 +47,7 @@ const App = () => {
           <Route path='/courant-faible' element={<CourantFaible />} />
           <Route path='/chaudronnerie' element={<Chaudronnerie />} />
           <Route path='/btp' element={<BtpUrbanisme />} />
+          <Route path='/enseigne' element={<Enseigne/>}/>
           <Route path='/partenariat' element={<Partenariat />} />
           <Route path='/offre-d-emploi' element={<OffreEmploi />} />
           <Route path='/foire-aux-questions' element={<Faq />} />

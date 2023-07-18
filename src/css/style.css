@@ -1005,7 +1005,6 @@ section {
   transition: 0.25s;
   border-radius: 5px;
   --color: var(--mainColor6);
-  --hover: #60fc52;
 }
 .submit:hover{
     border-color: var(--hover);

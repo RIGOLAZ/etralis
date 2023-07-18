@@ -6,43 +6,42 @@ import { backward } from '../data';
 import Sidebar from '../components/Sidebar';
 import ContactBanner from '../components/ContactBanner';
 
-const BtpUrbanisme = () => {
+const Enseigne = () => {
     return (
         <>
             <Header />
             <Sidebar />
             <main>
 		<div id="marge"></div>
-		<div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1662051853/Building_ve6lth.jpg")`}} >
+		<div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/v1689683632/Enseigne-etra_oag9ir.png")`}} >
 			<div className='titre-home'>
-				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>BTP ET URBANISME</h2>
+				<i onClick={backward} className="fa-solid fa-caret-left fa-xl"></i><h2>ENSEIGNES LUMINEUSES</h2>
 			</div>
 		</div>
 			<section className="section-blog section-blog-article">
-				<div id='ref'><a href="/">Accueil</a>/BTP ET URBANISME <br /><br />Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</div>
+				<div id='ref'><a href="/">Accueil</a>/Enseigne <br /><br />Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</div>
 				<div className="inner">
             <div className="container">
 			{/* <!-- article body  --> */}
 			<div className="body">
-				<p><span id='lettrine'>L</span>es enseignes lumineuses...En cours de développement par nos ingénieurs chevronnés...</p><br />
+				<p><span id='lettrine'>L</span>es enseignes lumineuses...En cours de développement par nos Techniciens chevronnés...</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
-				<h2>Etude
-				</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="bedroom" />
-				<p>En cours de développement par nos ingénieurs chevronnés...<br /><br />
+				<h2>Design des enseignes</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="bedroom" />
+				<p>En cours de développement par nos Techniciens chevronnés <br /><br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
                 <p>Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br />
-				<h2>Conception</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689684982/Montage_de_l_enseigne_rqwcml.jpg" alt="lampadaire" />
-				<p>En cours de développement par nos ingénieurs chevronnés...<br />
+				<h2>Montages des enseignes</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689684982/Montage_de_l_enseigne_rqwcml.jpg" alt="lampadaire" />
+				<p>En cours de développement par nos Techniciens chevronnés...<br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
 				<ContactBanner /><br />
-				<h2>Réalisation, Contrôle des projets de construction</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689685940/Building_eykb4a.png" alt="Biomedical" />
-				<p>En cours de développement par nos ingénieurs chevronnés...<br />
+				<h2>Installations des plaques publicitaires</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689685224/panneau_tzpkfs.png" alt="Biomedical" />
+				<p>En cours de développement par nos Techniciens chevronnés...<br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance
 				</p><br />
 				<h2 id='conseil'></h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
-                <h3>En cours de développement par nos ingénieurs chevronnés...</h3>
+                <h3>En cours de développement par nos Techniciens chevronnés...</h3>
 			</div>
 			</div>
 				</div>
@@ -54,4 +53,4 @@ const BtpUrbanisme = () => {
     );
 };
 
-export default BtpUrbanisme;
+export default Enseigne;

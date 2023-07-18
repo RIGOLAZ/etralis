@@ -23,9 +23,9 @@ const Home = () => {
                 </div>
             </div>
             <Rubrique/>
-            <div>
+            {/* <div>
                 <p><strong>Bonus</strong>: Tout client pourra bénéficier de l'un de nos polos personalisés à la fin de chaque chantier.</p>
-            </div>
+            </div> */}
             <Comment />
         </main>
         <Footer />

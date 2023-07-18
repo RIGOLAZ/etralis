@@ -62,14 +62,14 @@ export const offre=[
         desc:"Etude, Conception, Réalisation, Contrôle des projets de construction",
         lien: "/btp",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
-    }/* ,{
+    },{
         id:10,
         homoHeadColor:"#FFFFFF",
-        title:"AVIONIQUE",
-        desc:"Techiques d'assistance dans l'aéronautique, gestion des systèmes embarqués, étalonnage.",
-        lien: "/avionique",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1654005226/avionique_iaxkrc.jpg"
-    } */
+        title:"ENSEIGNE LUMINEUSE",
+        desc:"Conception et montage des enseignes luminaire, panneaux publicitaires",
+        lien: "/enseigne",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1689679478/Enseigne_fkaxu9.jpg"
+    }
 ]
 
 export const backward =()=> {
