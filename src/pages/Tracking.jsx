@@ -27,15 +27,16 @@ const Tracking = () => {
 			<div className="body">
 				<p><span id='lettrine'>L</span>e Tracking, terme employé en cas de pandémie pour le traçage numérique des populations, ou en abrégé traçage. Ce système est utilisé par plusieurs personnes pour la géolocalisation de leurs véhicules, motos et engins lourd</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
-				<h2>Tracking</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="bedroom" />
+				<h2>Tracking</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690219625/Tacking_r8nzmh.png" alt="tracking" />
 				<p>En cours de développement par nos ingenieurs... <br /><br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
                 <p>Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br />
-				<h2>Objets connectés</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226416/photo-1528901166007-3784c7dd3653_xxg6zm.jpg" alt="lampadaire" />
+				<h2>Objets connectés</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690220175/connected_j5yr3v.png" alt="connect" />
 				<p>En cours de développement par nos ingenieurs... <br />
-				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
+				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p><br />
+				<p>Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br /><br /><br /><br />
 				<ContactBanner /><br />
-				<h2>Solutions embarquées</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674416650/photo-1544197150-b99a580bb7a8_y6ewit.jpg" alt="Biomedical" />
+				<h2>Solutions embarquées</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674416650/photo-1544197150-b99a580bb7a8_y6ewit.jpg" alt="embed" />
 				<p>En cours de développement par nos ingenieurs...<br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance
 				</p><br />

@@ -24,21 +24,20 @@ const BtpUrbanisme = () => {
             <div className="container">
 			{/* <!-- article body  --> */}
 			<div className="body">
-				<p><span id='lettrine'>L</span>es enseignes lumineuses...En cours de développement par nos ingénieurs chevronnés...</p><br />
+				<p><span id='lettrine'>L</span>es BTP...En cours de développement par nos ingénieurs chevronnés...</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
 				<h2>Etude
-				</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="bedroom" />
+				</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1674226787/photo-1523553374578-aba5fa21a345_uwtcpk.jpg" alt="study" />
 				<p>En cours de développement par nos ingénieurs chevronnés...<br /><br />
-				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
-                <p>Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br />
-				<h2>Conception</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689684982/Montage_de_l_enseigne_rqwcml.jpg" alt="lampadaire" />
+				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance. <br /> Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br /><br /><br /><br /><br />
+				<h2>Conception</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690220916/drawing_oajyqe.png" alt="drawing" />
 				<p>En cours de développement par nos ingénieurs chevronnés...<br />
-				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
+				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p><br /><br /><br />
 				<ContactBanner /><br />
 				<h2>Réalisation, Contrôle des projets de construction</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689685940/Building_eykb4a.png" alt="Biomedical" />
 				<p>En cours de développement par nos ingénieurs chevronnés...<br />
 				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance
-				</p><br />
+				</p><br /><br /><br />
 				<h2 id='conseil'></h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>

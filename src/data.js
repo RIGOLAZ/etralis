@@ -33,7 +33,7 @@ export const offre=[
         title:"PLOMBERIE",
         desc:"Plomberie commerciale, résidentielle et industrielle.",
         lien: "/plomberie",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1670596140/plomberie_uva9p4.jpg"
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1690217020/Plomberie_hvlqyw.png"
     },{
         id:6,
         homoHeadColor:"#FFFFFF",

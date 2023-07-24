@@ -27,7 +27,7 @@ const courantFaible = () => {
 			{/* <!-- article body  --> */}
 			<div className="body">
 				<p><span id='lettrine'>L</span>e courant faible est l'opposé du courant fort. Il ne transfère pas de l'energie électrique, mais plutôt du signal électrique (<strong>moins de 10mA</strong>). Il est assimilé à tout système basé sur le transfert d'informations et de données. Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p><br />
-				<h2>VIDEO SURVEILLANCE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659863928/vid%C3%A9osurveillance_m2flem.jpg" alt="bedroom" />
+				<h2>VIDEO SURVEILLANCE</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690218982/vid%C3%A9osurveillance_rtttna.png" alt="bedroom" />
 				<p>Dans le but de surveiller les lieux, des biens, personnes … des particuliers font de plus en plus recours aux systèmes de vidéosurveillance. Il existe deux types de systèmes de vidéosurveillance: analogique et numérique. Dans ce document, nous présenterons de manière détaillée ses différents systèmes.</p><br />
                 <p id='equip'>Equipements de gestion</p>
                 <p>La gestion d’un système de vidéosurveillance se fait par plusieurs équipements (<strong><i>DVR, NVR, serveur, logiciels</i></strong> ). Toute fois le choix de l’équipement de gestion dépend des besoins de l’utilisateur.</p>

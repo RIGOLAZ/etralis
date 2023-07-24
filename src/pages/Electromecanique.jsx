@@ -31,7 +31,7 @@ const Electromecanique = () => {
                 <p>Ces appareils sont en général ceux avec lesquels nous passons pratiquement toute notre existance, c'est pourquoi il est impératif de les choisir de façon très minutieuse afin de ne pas regretter un choix à un moment donné!</p>
                 <p>Bientôt nous aurons une rubrique achat et location de matériel dans notre site web pour vous faciliter les choses au <strong>prix Eco+</strong> tout en vous proposant des <strong>garanties alléchantes</strong>.</p>
                 <p>Néanmoins, nos équipes sont disponibles pour l'entretien et le dépannage de vos appareils au cas où vous les auriez déjà achetés.</p><br />
-				<h2>Groupe électrogène</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675075163/GE_inbves.jpg" alt="GE" />
+				<h2>Groupe électrogène</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690217570/GE_auie5i.png" alt="GE" />
 				<p>Un groupe électrogène est un appareil électromécanique autonome capable de produire de l'électricité. Il vient en secours en prennant le relais lorsque le courant électrique fréquemment utilisé se coupe, ceci pour assurer une réalimentation des appareils, le temps de la reprise. Il existe plusieurs types de groupes électrogènes, chacun dans un domaine d'activité précis.</p>
                 <p>L'installation d'un groupe électrogène demande la prise en compte de plusieurs paramètres: Le gabari, le type de groupe, la direction de la fumée en échappement, etc... C'est pourquoi il est fortement conseillé de léguer ladite installation à un professionnel du métier. </p>
                 <ContactBanner /><br />
@@ -41,7 +41,7 @@ const Electromecanique = () => {
                 <p> - Les <strong>ascenseurs hydrauliques</strong>: Ici, les pistons et vérins composent ce type de système actionnés par une centrale hydraulique. Le système est plus doux et plus silencieux correspond aux petits immeubles. Son déplacement est également plus lent, ce qui explique aussi la plus grande douceur.</p>
                 <p> - Les <strong>ascenseurs électriques</strong>: Ce le modèle le plus utilisé. Il est constitué d’un moteur qui situé au niveau de la gaine, afin de minimiser l’espace occupé. Ce moteur permet l’élévation de l’ascenseur par le système du contrepoids. L’électronique vient ici remplacer la partie hydraulique.</p>
                 <p>Il est serait donc de bon ton de se rapprocher des professionnels dans le domaine des ascenseurs avant toutefois de se lancer dans l'installation.</p><br />
-                <h2>Distributeur automatique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675251452/DAB_lrcqwy.jpg" alt="dab" />
+                <h2>Distributeur automatique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1690217015/DAB_jykhye.png" alt="dab" />
                 <p>Un distributeur automatique, ou machine distributrice est une machine qui permet d'obtenir des biens, sans intervention humaine (en libre-service), grâce aux techniques d'automatique. Les machines les plus courantes sont les distributeurs automatiques de boissons chaudes, notamment de café, mais on trouve aussi des distributeurs de boissons fraîches avec des ingrédients comme l'eau, les fruits ou le thé, ainsi que les distributeurs de snacks.
                 Les banques ont aussi développé des automates permettant de retirer de l'argent avec une carte bancaire, le distributeur automatique de billets.</p><br />
 				<h2 id='conseil'></h2>
