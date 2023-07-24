@@ -33,7 +33,7 @@ const Electromecanique = () => {
                 <p>Néanmoins, nos équipes sont disponibles pour l'entretien et le dépannage de vos appareils au cas où vous les auriez déjà achetés.</p><br />
 				<h2>Groupe électrogène</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675075163/GE_inbves.jpg" alt="GE" />
 				<p>Un groupe électrogène est un appareil électromécanique autonome capable de produire de l'électricité. Il vient en secours en prennant le relais lorsque le courant électrique fréquemment utilisé se coupe, ceci pour assurer une réalimentation des appareils, le temps de la reprise. Il existe plusieurs types de groupes électrogènes, chacun dans un domaine d'activité précis.</p>
-                <p>L'installation d'un groupe électrogène demande la prise en compte de plusieurs paramètres: Le gabari, le type de groupe, la direction de la fumée en échappement, etc... C'est pourquoi il est fortement conseillé de léguer ladite installation à un professionnel du métier. </p><br />
+                <p>L'installation d'un groupe électrogène demande la prise en compte de plusieurs paramètres: Le gabari, le type de groupe, la direction de la fumée en échappement, etc... C'est pourquoi il est fortement conseillé de léguer ladite installation à un professionnel du métier. </p>
                 <ContactBanner /><br />
 				<h2>Ascenseur</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675076410/Ascens_mcvlva.jpg" alt="Biomedical" />
 				<p>Un ascenseur est un appareil servant au transport vertical des personnes aux différents étages d'un immeuble.<br /></p>

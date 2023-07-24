@@ -37,6 +37,8 @@
 body {
     font-family:'segoe print',"acme", Geneva, Verdana, sans-serif;
     /* font-size: 16px; */
+    display: flex;
+    flex-direction: column;
 }
 /*sidebar.................*/
 
@@ -491,7 +493,7 @@ nav a:hover:before {
 }
 
 #lettrine{
-    font-size: 30px;
+    font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
@@ -736,8 +738,11 @@ section {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
+.blocs{
+  margin: 10px 0 10px 0;
+}
 .body img{
-  width: 110px;
+  width: 200px;
   float: left;
   padding:0 10px 10px 0;
   border-radius:10px;

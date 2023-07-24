@@ -12,9 +12,10 @@ import Informatique from './pages/Informatique';
 import FroidClimatisation from './pages/FroidClimatisation';
 import CourantFaible from './pages/CourantFaible';
 import Plomberie from './pages/Plomberie';
-import Chaudronnerie from './pages/Chaudronnerie';
+// import Chaudronnerie from './pages/Chaudronnerie';
 import BtpUrbanisme from './pages/BtpUrbanisme';
 import Enseigne from './pages/Enseigne';
+import Piscine from './pages/Piscine';
 import OffreEmploi from './pages/OffreEmploi';
 import Faq from './pages/Faq';
 import Localisation from './pages/Localisation';
@@ -45,9 +46,10 @@ const App = () => {
           <Route path='/froid-et-climatisation' element={<FroidClimatisation />} />
           <Route path='/plomberie' element={<Plomberie />} />
           <Route path='/courant-faible' element={<CourantFaible />} />
-          <Route path='/chaudronnerie' element={<Chaudronnerie />} />
+          {/* <Route path='/chaudronnerie' element={<Chaudronnerie />} /> */}
           <Route path='/btp' element={<BtpUrbanisme />} />
           <Route path='/enseigne' element={<Enseigne/>}/>
+          <Route path='/piscine' element={<Piscine />}/>
           <Route path='/partenariat' element={<Partenariat />} />
           <Route path='/offre-d-emploi' element={<OffreEmploi />} />
           <Route path='/foire-aux-questions' element={<Faq />} />

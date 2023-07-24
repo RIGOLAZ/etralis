@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { backward } from '../data';
 import Sidebar from '../components/Sidebar';
+import ContactBanner from '../components/ContactBanner';
 const Plomberie = () => {
     return (
         <>
@@ -25,7 +26,8 @@ const Plomberie = () => {
 			<div className="body">
 				<p><span id='lettrine'>L</span>a plomberie est une spécialité de l'ingénieur en mécanique appliquée au bâtiment et du plombier spécialisé, regroupant l'ensemble des techniques utilisées pour faire circuler des fluides (liquide ou gaz) à l'aide de tuyaux, tubes, vannes, robinets, soupapes, pompes aux différents points d'usage d'une installation. etc. Confère: <a href="https://fr.wikipedia.org/wiki/Plomberie" target="_blank">Wikipédia.</a></p><br />
 				<h2>La plomberie commerciale</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675263021/photo-1628859266125-8dc2adef1416_istfix.jpg" alt="robinets" />
-				<p>En rédaction par nos ingénieurs... Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut impedit accusamus, perferendis, perspiciatis aliquid quaerat tempore nostrum nulla odit, quidem aperiam hic fugit nisi ad quos in repudiandae nemo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium optio quia, numquam eos odit culpa, eaque, voluptate facere facilis vero perspiciatis. Iste architecto, debitis aliquam culpa temporibus dolorum distinctio doloribus!</p><br />
+				<p>En rédaction par nos ingénieurs... Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut impedit accusamus, perferendis, perspiciatis aliquid quaerat tempore nostrum nulla odit, quidem aperiam hic fugit nisi ad quos in repudiandae nemo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium optio quia, numquam eos odit culpa, eaque, voluptate facere facilis vero perspiciatis. Iste architecto, debitis aliquam culpa temporibus dolorum distinctio doloribus!</p>
+				<ContactBanner/><br />
 				<h2>La plomberie résidentielle</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1675264856/photo-1518618750560-8f07abde4e4e_nf6bma.jpg" alt="Plomb" />
 				<p>En rédaction par nos ingénieurs. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad tempora, nesciunt aspernatur eveniet non commodi repellat saepe deleniti esse perferendis. Dolore in sed maxime ipsa cupiditate nemo sequi debitis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ad expedita nisi rerum repudiandae magnam nulla saepe, similique impedit porro asperiores adipisci soluta iusto sunt tempore unde cumque omnis ipsam?</p><br />
                 <h2>La plomberie industrielle</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1653850250/plomberie2_sltjc8.jpg" alt="Tuyaux" />

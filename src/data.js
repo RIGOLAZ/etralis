@@ -44,32 +44,39 @@ export const offre=[
     },{
         id:7,
         homoHeadColor:"#FFFFFF",
+        title:"TRACKING ET SOLUTIONS EMBARQUEES",
+        desc:"Véhicules et objets connectés, solutions embarquées.",
+        lien: "/tracking",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1681460692/Traking_xnjydd.jpg"
+    },{
+        id:8,
+        homoHeadColor:"#FFFFFF",
+        title:"BTP ET URBANISME",
+        desc:"Etude, Conception, Réalisation, Contrôle des projets de construction.",
+        lien: "/btp",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
+    },{
+        id:9,
+        homoHeadColor:"#FFFFFF",
+        title:"ENSEIGNE LUMINEUSE",
+        desc:"Conception et montage des enseignes lumineuses, panneaux publicitaires.",
+        lien: "/enseigne",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1689679478/Enseigne_fkaxu9.jpg"
+    },{
+        id:10,
+        homoHeadColor:"#FFFFFF",
+        title:"PISCINE",
+        desc:"Conception des piscines intérieure, hors sol, biologique, enterrée, à couloir de nage, à débordement.",
+        lien: "/piscine",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1690052028/piscine_cool_wu1rsv.jpg"
+    }/* ,{
+        id:7,
+        homoHeadColor:"#FFFFFF",
         title:"CHAUDRONNERIE",
         desc:"Soudure aérienne, souterraine, sur plateforme et milieu aquatique.",
         lien: "/chaudronnerie",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/c_scale,w_1000/v1681717518/Chaudronnier_edl6or.jpg"
-    },{
-        id:8,
-        homoHeadColor:"#FFFFFF",
-        title:"TRACKING ET SOLUTIONS EMBARQUEES",
-        desc:"Véhicules et objets connectés, solutions embarquées",
-        lien: "/tracking",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1681460692/Traking_xnjydd.jpg"
-    },{
-        id:9,
-        homoHeadColor:"#FFFFFF",
-        title:"BTP ET URBANISME",
-        desc:"Etude, Conception, Réalisation, Contrôle des projets de construction",
-        lien: "/btp",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
-    },{
-        id:10,
-        homoHeadColor:"#FFFFFF",
-        title:"ENSEIGNE LUMINEUSE",
-        desc:"Conception et montage des enseignes luminaire, panneaux publicitaires",
-        lien: "/enseigne",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1689679478/Enseigne_fkaxu9.jpg"
-    }
+    } */
 ]
 
 export const backward =()=> {

@@ -32,7 +32,7 @@ const Enseigne = () => {
                 <p>Il est primordial que ce soit fait par un professionnel du métier afin de pouvoir coordonner matériel et logiciels pour une utilisation optimale et en toute sécurité.</p><br />
 				<h2>Montages des enseignes</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689684982/Montage_de_l_enseigne_rqwcml.jpg" alt="lampadaire" />
 				<p>En cours de développement par nos Techniciens chevronnés...<br />
-				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p>
+				Néanmoins, Vous pouvez dores et déjà nous contacter pour une assistance</p><br />
 				<ContactBanner /><br />
 				<h2>Installations des plaques publicitaires</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1689685224/panneau_tzpkfs.png" alt="Biomedical" />
 				<p>En cours de développement par nos Techniciens chevronnés...<br />
