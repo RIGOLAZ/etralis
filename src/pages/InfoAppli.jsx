@@ -17,7 +17,7 @@ const InfoAppli = () => {
                 <p>Website version 1.9.1</p>
                 <p>Editeur:</p>
                 <p>Rigobert EKWA MOUNGUI</p>
-                <p>© 2017-2022 ETRALIS</p>
+                <p>© 2017-2023 ETRALIS</p>
             </div>
         </div>
         <Footer />
