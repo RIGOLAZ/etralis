@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+const date = new Date();
+const year = date.getFullYear();
+
 const Footer1 = () => {
     return (
       <footer className="flex-rw">
@@ -76,8 +79,7 @@ const Footer1 = () => {
       </section>
       <section className="footer-bottom-section flex-rw">
     <div className="footer-bottom-wrapper">   
-    <i className="fa fa-copyright">
-    </i> 2023 ETRALIS <address className="footer-address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
+    <i className="fa fa-copyright"></i> {year} ETRALIS <address className="footer-address">DOUALA, CAMEROUN</address><span className="footer-bottom-rights"> - Tous droits réservés - </span>
         </div>
         <div className="footer-bottom-wrapper">
         <Link to="/termes" className="generic-anchor" rel="nofollow">Termes</Link> | <Link to="/confidentialite" className="generic-anchor" rel="nofollow">Confidentialité</Link>
