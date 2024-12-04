@@ -15,7 +15,7 @@
     "@use-cookie-consent/react": "^0.3.7",
     "axios": "^0.26.0",
     "cloudinary-react": "^1.7.1",
-    "firebase": "^9.9.1",
+    "firebase": "^9.23.0",
     "react": "^17.0.2",
     "react-async": "^10.0.1",
     "react-cookie-consent": "^8.0.1",
@@ -62,5 +62,9 @@
     "gh-pages": "^4.0.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "description": "��#\u0000 \u0000e\u0000t\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000e\u0000t\u0000r\u0000a\u0000l\u0000i\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

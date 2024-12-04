@@ -3,6 +3,7 @@ import Comment from '../components/Comment';
 import Footer1 from '../components/Footer';
 import Header from '../components/Header';
 import { backward } from '../data';
+// import Illustration from '../components/Illustration';
 import Sidebar from '../components/Sidebar';
 import ContactBanner from '../components/ContactBanner';
 
@@ -46,6 +47,7 @@ const BtpUrbanisme = () => {
 			</div>
 				</div>
 			</section>
+			{/* <Illustration /> */}
 			<Comment />
         </main>
             <Footer1 />
