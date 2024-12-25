@@ -201,6 +201,9 @@ strong {
     visibility: visible;
     bottom: 2px;
 }
+.xmas{
+  left: 85px;
+}
 
 /* Ecomm redirect button start*/
 
@@ -1914,6 +1917,10 @@ blockquote #tel{
       width: 120px;
       height: 30px;
     }
+    .xmas{
+      visibility: visible;
+      left: 0;
+    }
     nav{
       visibility: hidden;
     }
@@ -1936,7 +1943,6 @@ blockquote #tel{
     .apearance2{
       display: inline-block;
     }
-    
   }
   
 @media screen and (max-width:585px){
