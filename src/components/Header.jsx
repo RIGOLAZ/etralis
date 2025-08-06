@@ -9,7 +9,7 @@ const Header = () => {
                 <Link to='/accueil'>
                     <img src="https://res.cloudinary.com/do8lyndou/image/upload/v1678701647/Button-ETRALIS_hcxo2a.svg" alt="strobe" />
                 <span style={{color:"white", fontWeight:"bold", paddingLeft:"10px", position:"absolute", top:"6px"}}>ETRALIS</span>
-            <img className='xmas' src="https://res.cloudinary.com/do8lyndou/image/upload/v1735091749/Chapeau-N%C3%B6el_vbieyp.png" alt="hat" />
+            {/* <img className='xmas' src="https://res.cloudinary.com/do8lyndou/image/upload/v1735091749/Chapeau-N%C3%B6el_vbieyp.png" alt="hat" /> */}
                 </Link>
             </div>
             <button className="custom-btn btn-11">
