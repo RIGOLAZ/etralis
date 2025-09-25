@@ -16,10 +16,10 @@ export const offre=[
     },{
         id:3,
         homoHeadColor:"#FFFFFF",
-        title:"ELECTROMECANIQUE",
-        desc:"Electroménager, groupe électrogène, ascenseur, distributeur automatique, etc...",
-        lien: "/electromecanique",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659862487/%C3%A9lectrom%C3%A9canique_emdoxj.jpg"
+        title:"PEINTURE",
+        desc:"Peinture intérieure, extérieure, revêtement mural, traitement anti-humidité.",
+        lien: "/peinture-maison",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1758742438/multirecycle-recyclage-peinture_zadgor.jpg"
     },{
         id:4,
         homoHeadColor:"#FFFFFF",
@@ -51,10 +51,10 @@ export const offre=[
     },{
         id:8,
         homoHeadColor:"#FFFFFF",
-        title:"BTP ET URBANISME",
-        desc:"Etude, Conception, Réalisation, Contrôle des projets de construction.",
-        lien: "/btp",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
+        title:"ELECTROMECANIQUE",
+        desc:"Electroménager, groupe électrogène, ascenseur, distributeur automatique, etc...",
+        lien: "/electromecanique",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1659862487/%C3%A9lectrom%C3%A9canique_emdoxj.jpg"
     },{
         id:9,
         homoHeadColor:"#FFFFFF",
@@ -69,14 +69,14 @@ export const offre=[
         desc:"Conception des piscines intérieure, hors sol, biologique, enterrée, à couloir de nage, à débordement.",
         lien: "/piscine",
         bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1690052028/piscine_cool_wu1rsv.jpg"
-    }/* ,{
-        id:7,
+    },{
+        id:11,
         homoHeadColor:"#FFFFFF",
-        title:"CHAUDRONNERIE",
-        desc:"Soudure aérienne, souterraine, sur plateforme et milieu aquatique.",
-        lien: "/chaudronnerie",
-        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/c_scale,w_1000/v1681717518/Chaudronnier_edl6or.jpg"
-    } */
+        title:"BTP ET URBANISME",
+        desc:"Etude, Conception, Réalisation, Contrôle des projets de construction.",
+        lien: "/btp",
+        bgi: "https://res.cloudinary.com/do8lyndou/image/upload/v1662052059/photo-1657016258749-b401e831758b_vk3pmu.jpg"
+    }
 ]
 
 export const backward =()=> {
