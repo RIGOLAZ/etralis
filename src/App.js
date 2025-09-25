@@ -2,17 +2,15 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/style.css';
 import Home from './pages/Home';
-import Services from './pages/Services';
+import Conseils from './pages/Conseils';
 import InfoAppli from './pages/InfoAppli';
 import Partenariat from './pages/Partenariat';
 import Electricite from './pages/Electricite';
-import Avionique from './pages/Avionique';
 import Electromecanique from './pages/Electromecanique';
 import Informatique from './pages/Informatique';
 import FroidClimatisation from './pages/FroidClimatisation';
 import CourantFaible from './pages/CourantFaible';
 import Plomberie from './pages/Plomberie';
-// import Chaudronnerie from './pages/Chaudronnerie';
 import BtpUrbanisme from './pages/BtpUrbanisme';
 import Enseigne from './pages/Enseigne';
 import Piscine from './pages/Piscine';
@@ -25,6 +23,7 @@ import Confidentialite from './pages/Confidentialite';
 import AboutUs from './pages/About-us';
 import Tracking from './pages/Tracking';
 import PageNotFound from './pages/PageNotFound';
+import Peinture from './pages/Peinture';
 
 const App = () => {
   return (
@@ -34,12 +33,12 @@ const App = () => {
           <Route path='/' element={<Home/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/accueil' element={<Home/>} />
-          <Route path="/services" element={<Services/>} />
+          <Route path="/conseils" element={<Conseils/>} />
           <Route path='/a-propos' element={<AboutUs />} />
           <Route path='/info-appli' element={<InfoAppli/>}/>
           <Route path='/partenariat' element={<Partenariat />} />
           <Route path='/electricite' element={<Electricite />} />
-          <Route path='/avionique' element={<Avionique />} />
+          <Route path='/peinture-maison' element={<Peinture/>}/>
           <Route path='/informatique' element={<Informatique />} />
           <Route path='/tracking' element={<Tracking />} />
           <Route path='/electromecanique' element={<Electromecanique/>} />

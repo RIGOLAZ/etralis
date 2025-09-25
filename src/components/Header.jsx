@@ -17,7 +17,7 @@ const Header = () => {
             </button>
             <nav>
                 <NavLink to='/accueil' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Accueil </NavLink>
-                <NavLink to='/services' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Services </NavLink>
+                <NavLink to='/conseils' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> Conseils </NavLink>
                 <NavLink to='/a-propos' className={({isActive}) =>(isActive ? 'nav-active' : 'nav-inactive')}> A-propos </NavLink>
             </nav>
             <span id='joindre'>

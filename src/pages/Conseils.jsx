@@ -1,17 +1,17 @@
 import React from 'react';
-import Comment from '../components/Comment';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import { backward } from '../data';
 import ContactBanner from '../components/ContactBanner';
+import Comment from '../components/Comment';
 
-const Electricite = () => {
+const Conseils = () => {
     return (
-<>
-	<Header />
-	<Sidebar />
-	<main>
+        <div>
+            <Header />
+            <Sidebar />
+        <main>
 		<div id="marge"></div>
 		<div className='intro' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/do8lyndou/image/upload/a_180/v1659815230/photo-1635335874521-7987db781153_nuqnn5.jpg")`}} >
 			<div className='titre-home'>
@@ -19,18 +19,23 @@ const Electricite = () => {
 			</div>
 		</div>
 			<section className="section-blog section-blog-article">
-				<div id='ref'><a href="/">Accueil</a>/Electricité <br /><br />Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</div>
+				<div id='ref'><a href="/">Accueil</a>/Conseils</div>
 				<div className="inner">
             <div className="container">
 			{/* <!-- article body  --> */}
 			<div className="body">
-				<p><span id='lettrine'>L</span>'électricité est un élément naturel nécesssaire, voire indispensable pour le fonctionnement de la grande majorité des appareils que nous utilisons en longueur de journée. C'est un phénomène très dangereux, c'est pour cela qu'il est important, voire primordial que les installations électriques soient gérées par des professionnels du métier pour une utilisation optimale et en toute sécurité.
-					Voici quelques domaines dans lesquels nous exercons et pouvons vous accompagner.</p><br />
+				<p><span id='lettrine'>L</span>es risques liés aux travaux électriques – tels que les chocs, brûlures par arc, ou chutes lors des interventions en hauteur – sont bien réels et parfois graves. L'absence des équipements conformes (casques isolants, gants diélectriques, chaussures de sécurité, vêtements ignifugés, etc.) expose vos techniciens à des dangers évitables, tout en engageant la responsabilité de l’institution en cas d’incident.
+
+La dotation en ÉPI et ÉPC  :
+- Protège le personnel de l'hôpital contre les accidents professionnels ;
+- Améliore la qualité et la sérénité du travail ;
+- Renforce l’image de rigueur et de conformité de l’hôpital vis-à-vis des normes de sécurité.
+
+En plus de la dotation en ÉPI, il est fortement recommandé que la totalité du personnel technicien soit formée en technique de premiers secours (Soit par la Croix Rouge, soit par une équipe de médecins qui maîtrise lesdites techniques) au cas où!.</p><br />
 				{/* <p>Saut direct aux <a href="#conseil"><strong>Conseils</strong></a>.</p> */}
 				<h2>Electricité domestique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659882997/photo-1599709173687-64dcfed43386_wbtwll.jpg" alt="bedroom" />
 				<p>C'est l'électricité du réseau électrique cablée dans les logements des particuliers ainsi que dans les lieux où les besoins sont similaires (<strong>Domicile</strong>, <strong>bureau</strong>, <strong>boutique</strong>, etc…).
-					Ces endroits sont en majorité fréquentés par des adultes, aussi souvent par les enfants et des animaux domestiques. Ceci dit, les installations domestiques doivent respecter une certaine norme de sécurité afin d'éviter un incident ou pire, un accident. <br /> C'est pourquoi il est impératif, voire primordial que ces installations soient faites par des professionnels du métier.
-					<br />Et aussi, il est important de signaler que les installations devraient respecter un certains canevas pour faciliter des éventuels interventions dans le futur, au cas où!</p>
+					Ces endroits sont en majorité fréquentés par des adultes, aussi souvent par les enfants et des animaux domestiques. Ceci dit, les installations domestiques doivent respecter une certaine norme de sécurité afin d'éviter un incident ou pire, un accident. C'est pourquoi il est impératif, voire primordial que ces installations soient faites par des professionnels du métier.</p><br />
 				<h2>Electricité publique</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1660467303/eclairage-public_f4jvq2.jpg" alt="lampadaire" />
 				<p>C'est l'électricité installée à l'intérieur et à l'extérieur des villes, ceci dans le but de sécurité et de confort des passants. Elle est composée entre autres de <strong>l'éclairage public</strong>, <strong>les feux de signalisation</strong>, etc...
 					Dans une ville, Il est non seulement important d'installer le matériel de qualité et aux normes accompagné des appareillages de protection adéquats pour qu'ils restent très longtemps au public sans se détériorer, mais aussi d'avoir à disposition des techniciens dans le domaine qui maîtrisent les circuits de type automatique et autonome en général souterrains. </p><br />
@@ -48,7 +53,7 @@ const Electricite = () => {
 				<p>Il faut noter que la totalité des appareils biomédicaux connectables sur un réseau informatique est livré avec un interlogiciel qui protège les appareils biomédicaux des cyberattaques.</p></p><br />
 				<h2>Panneau solaire</h2><img src="https://res.cloudinary.com/do8lyndou/image/upload/v1659901284/photo-1658298775754-5839ffd434cc_k9td2v.jpg" alt="panel" />
 				<p>Un panneau solaire est une plaque qui capte l’énergie du soleil pour la transformer en électricité ou en chaleur. C'est une solution rentable et respectueuse de l’environnement. Elle permet aussi de faire beaucoup d'économie en énergie courante.</p>
-				<h2 id='kindPanel'> </h2>
+				<h2 id='kindPanel'></h2>
 				<div id="marge"></div>
 				<h3>les types de panneaux.</h3>
 				<p>Il existe quatre types de panneaux solaires distingués par leurs caractéristiques et le type d'énergie produite: Le panneau thermique, le panneau photovoltaïque et le modèle hybride et aérovoltaïque.</p><br />
@@ -70,7 +75,7 @@ const Electricite = () => {
 					</ol>
 					<ContactBanner />
 				</p>
-				<h2 id='conseil'> </h2>
+				<h2 id='conseil'></h2>
 				<div id="marge"></div>
 				<h2 id='conseils'>Quelques conseils</h2>
 				<h3>Aménagement dans un nouveau local.</h3>
@@ -94,9 +99,9 @@ const Electricite = () => {
 			</section>
 			<Comment />
         </main>
-        <Footer />
-    </>
+            <Footer />
+        </div>
     );
 };
 
-export default Electricite;
+export default Conseils;
